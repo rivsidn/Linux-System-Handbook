@@ -20,8 +20,14 @@
     * [proxychains使用](network/proxy/proxychains使用.md)
     * [手机代理设置](network/proxy/手机代理设置.md)
 
-
 # man手册
 	
 * [man手册](manual/README.md)
   * [ip-xfrm](manual/ip-xfrm.md)
+
+
+# 办公工具
+
+* [办公工具](office_tools/README.md)
+  * [chm文件查看](office_tools/chm文件查看.md)
+
