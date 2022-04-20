@@ -38,3 +38,4 @@ sudo systemctl enable v2ray
 ### 参考资料
 
 * [fhs-install-v2ray](#https://github.com/v2fly/fhs-install-v2ray)
+
