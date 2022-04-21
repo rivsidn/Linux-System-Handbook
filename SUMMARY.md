@@ -20,9 +20,9 @@
     * [proxychains使用](net_config/proxy/proxychains使用.md)
     * [手机代理设置](net_config/proxy/手机代理设置.md)
 
-# man手册
+# 常用命令
 	
-* [man手册](manual/README.md)
+* [常用命令](manual/README.md)
   * [ip-xfrm](manual/ip-xfrm.md)
 
 
