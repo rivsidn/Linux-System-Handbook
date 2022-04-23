@@ -30,4 +30,6 @@
 
 * [办公工具](office_tools/README.md)
   * [chm文件查看](office_tools/chm文件查看.md)
+  * [krop pdf裁边工具](office_tools/krop&#32;pdf裁边工具.md)
+  * [DPTRP1文件传输](office_tools/DPTRP1文件传输.md)
 
