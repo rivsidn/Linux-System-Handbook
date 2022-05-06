@@ -10,8 +10,8 @@
 ## 网络配置
 
 * [网络配置](net_config/README.md)
-  * [桥配置](net_config/bridge/README.md)
-    * [桥基础配置](net_config/bridge/桥基础配置.md)
+  * [vlan设备配置](net_config/vlan设备配置.md)
+  * [桥配置](net_config/桥配置.md)
   * [macvlan配置](net_config/macvlan配置.md)
   * [xfrm配置](net_config/xfrm配置.md)
   * [namespace配置](net_config/namespace配置.md)
