@@ -10,11 +10,12 @@
 ## 网络配置
 
 * [网络配置](net_config/README.md)
+  * [namespace配置](net_config/namespace配置.md)
   * [vlan设备配置](net_config/vlan设备配置.md)
   * [桥配置](net_config/桥配置.md)
   * [macvlan配置](net_config/macvlan配置.md)
+  * [ipvs配置](net_config/ipvs配置.md)
   * [xfrm配置](net_config/xfrm配置.md)
-  * [namespace配置](net_config/namespace配置.md)
   * [防火墙配置](net_config/iptables/README.md)
   * [代理配置](net_config/proxy/README.md)
     * [v2ray使用](net_config/proxy/v2ray使用.md)
@@ -26,6 +27,7 @@
 	
 * [常用命令](manual/README.md)
   * [bridge](manual/bridge.md)
+  * [ipvsadm](manual/ipvsadm.md)
   * [ip-xfrm](manual/ip-xfrm.md)
   * [ip-link](manual/ip-link.md)
 
