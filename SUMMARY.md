@@ -32,6 +32,11 @@
   * [ip-link](manual/ip-link.md)
 
 
+# 浏览器设置
+
+* [浏览器设置](browers/README.md)
+  * [CSDN精简显示](browers/CSDN精简显示.md)
+
 # 办公工具
 
 * [办公工具](office_tools/README.md)
