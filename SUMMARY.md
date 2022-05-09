@@ -5,6 +5,7 @@
 ## 系统设置
 
 * [系统设置](sys_setting/README.md)
+  * [linux电源管理](sys_setting/linux电源管理.md)
   * [terminal标签颜色设置](sys_setting/terminal标签颜色设置.md)
 
 ## 网络配置
