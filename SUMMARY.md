@@ -28,6 +28,7 @@
 	
 * [常用命令](manual/README.md)
   * [bridge](manual/bridge.md)
+  * [hwclock](manual/hwclock.md)
   * [ipvsadm](manual/ipvsadm.md)
   * [ip-xfrm](manual/ip-xfrm.md)
   * [ip-link](manual/ip-link.md)
