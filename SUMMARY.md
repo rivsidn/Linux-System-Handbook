@@ -34,6 +34,11 @@
   * [mv](manual/mv.md)
   * [rename](manual/rename.md)
 
+# 开发工具
+
+* [git](tools/git/README.md)
+  * [git](tools/git/README.md)
+
 
 # 浏览器设置
 
@@ -46,4 +51,6 @@
   * [chm文件查看](office_tools/chm文件查看.md)
   * [krop pdf裁边工具](office_tools/krop&#32;pdf裁边工具.md)
   * [DPTRP1文件传输](office_tools/DPTRP1文件传输.md)
+  * [toDesk安装](office_tools/toDesk安装.md)
+
 
