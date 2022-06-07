@@ -24,6 +24,10 @@
     * [proxychains使用](net_config/proxy/proxychains使用.md)
     * [手机代理设置](net_config/proxy/手机代理设置.md)
 
+# 网络调试
+* [网络调试](net_trace/README.md)
+  * [TCPing使用](net_trace/TCPing使用.md)
+
 # 常用命令
 	
 * [常用命令](manual/README.md)
@@ -49,8 +53,9 @@
 
 * [办公工具](office_tools/README.md)
   * [chm文件查看](office_tools/chm文件查看.md)
-  * [krop pdf裁边工具](office_tools/krop&#32;pdf裁边工具.md)
   * [DPTRP1文件传输](office_tools/DPTRP1文件传输.md)
+  * [krop pdf裁边工具](office_tools/krop&#32;pdf裁边工具.md)
+  * [minicom使用](office_tools/minicom使用.md)
   * [toDesk安装](office_tools/toDesk安装.md)
 
 
