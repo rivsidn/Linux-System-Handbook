@@ -42,6 +42,7 @@
 
 * [git](tools/git/README.md)
   * [git](tools/git/README.md)
+* [man](tools/man文件查看.md)
 
 
 # 浏览器设置
