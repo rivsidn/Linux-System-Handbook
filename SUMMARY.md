@@ -42,7 +42,7 @@
 # 开发工具
 
 * [git](tools/git/README.md)
-  * [git](tools/git/README.md)
+  * [git常用命令](tools/git/git常用命令.md)
 * [man](tools/man文件查看.md)
 
 
