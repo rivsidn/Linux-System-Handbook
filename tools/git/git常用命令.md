@@ -1,3 +1,10 @@
+## archive
+
+```bash
+# 以tar.gz格式压缩当前代码
+git archive --format=tar.gz 'b-2.1.34' -o ~/linux-2.1.34.tar.gz
+```
+
 ## describe
 
 ```bash
