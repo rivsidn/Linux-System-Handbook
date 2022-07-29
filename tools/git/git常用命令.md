@@ -5,6 +5,13 @@
 git archive --format=tar.gz 'b-2.1.34' -o ~/linux-2.1.34.tar.gz
 ```
 
+## config
+
+```bash
+# 全局配置比较工具为meld
+git config --global diff.tool meld
+```
+
 ## describe
 
 ```bash
@@ -14,6 +21,19 @@ v3.0-7531-gbc0b96b54a21
 ```
 
 `git`没有一个递增的版本号，可以通过 `git describe` 给每个`commit`生成一个比较容易看懂的提交名称。
+
+## difftool
+
+```bash
+# 比较文件
+git difftool <commit> <commit> Makefile
+# 比较文件之前不输出提示信息
+git difftool -y <commit> <commit> Makefile
+# 比较目录
+git difftool <commit> <commit> net/
+```
+
+
 
 ## log
 
