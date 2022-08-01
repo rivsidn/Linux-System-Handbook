@@ -5,6 +5,15 @@
 git archive --format=tar.gz 'b-2.1.34' -o ~/linux-2.1.34.tar.gz
 ```
 
+## checkout
+
+```bash
+# 创建新的分支
+git chechout -b <branch-name> <tag>
+# 创建追踪分支
+git checkout -b <branch-name> <remote-branch>
+```
+
 ## config
 
 ```bash

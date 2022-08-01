@@ -9,8 +9,6 @@
 ```bash
 #! /bin/bash
 
-#! /bin/bash
-
 branch="$(git branch | grep "^*" | cut -d ' ' -f 2-)"
 
 GIT_ROOT="$(git rev-parse --git-dir)"
