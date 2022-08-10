@@ -59,5 +59,6 @@
   * [krop pdf裁边工具](office_tools/krop&#32;pdf裁边工具.md)
   * [minicom使用](office_tools/minicom使用.md)
   * [toDesk安装](office_tools/toDesk安装.md)
+  * [ubuntu使用IE浏览器](office_tools/ubuntu使用IE浏览器.md)
 
 
