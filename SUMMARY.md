@@ -60,5 +60,6 @@
   * [minicom使用](office_tools/minicom使用.md)
   * [toDesk安装](office_tools/toDesk安装.md)
   * [ubuntu使用IE浏览器](office_tools/ubuntu使用IE浏览器.md)
+  * [ubuntu安装微信](office_tools/ubuntu安装微信.md)
 
 
