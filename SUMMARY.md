@@ -36,7 +36,9 @@
   * [ipvsadm](manual/ipvsadm.md)
   * [ip-xfrm](manual/ip-xfrm.md)
   * [ip-link](manual/ip-link.md)
+  * [lsof](manual/lsof.md)
   * [mv](manual/mv.md)
+  * [ps](manual/ps.md)
   * [rename](manual/rename.md)
 
 # 开发工具
