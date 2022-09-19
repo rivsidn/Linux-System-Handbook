@@ -36,7 +36,9 @@
   * [ipvsadm](manual/ipvsadm.md)
   * [ip-xfrm](manual/ip-xfrm.md)
   * [ip-link](manual/ip-link.md)
+  * [lsof](manual/lsof.md)
   * [mv](manual/mv.md)
+  * [ps](manual/ps.md)
   * [rename](manual/rename.md)
 
 # 开发工具
@@ -62,5 +64,6 @@
   * [toDesk安装](office_tools/toDesk安装.md)
   * [ubuntu使用IE浏览器](office_tools/ubuntu使用IE浏览器.md)
   * [ubuntu安装win10虚拟机](office_tools/ubuntu安装win10虚拟机.md)
+  * [ubuntu安装微信](office_tools/ubuntu安装微信.md)
 
 
