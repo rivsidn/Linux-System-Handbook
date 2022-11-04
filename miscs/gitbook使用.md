@@ -68,6 +68,26 @@ gitbook serve
 
 
 
+### 开机启动
+
+* 修改`rc.local`启动脚本
+
+  ```bash
+  #!/bin/bash
+  
+  gitbook serve /home/yuchao/tmp/book/ > /var/log/gitbook.log 2>&1 &
+  ```
+
+* `root`下安装`gitbook`
+
+  由于`gitbook`默认是安装在本地目录下，启动脚本中启动的时候运行在`root`下，找不到本地的安装，此时将本地安装的`gitbook`拷贝到本地即可
+
+  ```bash
+  cp ~/.gitbook/versions/* /root -a
+  ```
+
+
+
 ## 插件
 
 ### 生成页内目录
