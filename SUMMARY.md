@@ -8,6 +8,7 @@
   * [linux电源管理](sys_setting/linux电源管理.md)
   * [terminal标签颜色设置](sys_setting/terminal标签颜色设置.md)
   * [修改截图存储位置](sys_setting/修改截图存储位置.md)
+  * [添加桌面图标](sys_setting/添加桌面图标.md)
 
 ## 网络配置
 
@@ -68,6 +69,7 @@
   * [minicom使用](office_tools/minicom使用.md)
   * [pdftk剪切工具](office_tools/pdftk剪切工具.md)
   * [toDesk安装](office_tools/toDesk安装.md)
+  * [trustaccess安装](office_tools/trustaccess安装.md)
   * [ubuntu使用IE浏览器](office_tools/ubuntu使用IE浏览器.md)
   * [ubuntu安装win10虚拟机](office_tools/ubuntu安装win10虚拟机.md)
   * [ubuntu安装微信](office_tools/ubuntu安装微信.md)
