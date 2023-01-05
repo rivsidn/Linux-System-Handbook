@@ -136,4 +136,9 @@ gitbook install
 | SUMMARY.md  | 电子书目录(可选)<br />描述文件之间的目录关系，通过`markdown`列表之间的递进关系描述文件之间层级关系，<br />该文件中的标题仅用于自己注释，不会实际展示到电子书中。<br />文件之间的层级关系，就是通过列表之间层级关系体现的，目录等在`gitbook` 中并不会体现文件间层级关系。 |
 | GLOSSARY.md | 词汇/注释属于列表(可选)                                      |
 
+### 常见错误
+
+* Error: ENOENT: no such file or directory, stat ‘C:***demo_book\_book\gitbook\gitbook-plugin-fontsettings\fontsettings.js’
+
+  参照 [GitBook运行报错 - no such file or directory](https://blog.csdn.net/prufeng/article/details/83301895)
 
