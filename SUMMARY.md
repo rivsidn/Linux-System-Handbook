@@ -5,10 +5,11 @@
 ## 系统设置
 
 * [系统设置](sys_setting/README.md)
+  * [apt获取deb文件](sys_setting/apt获取deb文件.md)
   * [linux电源管理](sys_setting/linux电源管理.md)
   * [terminal标签颜色设置](sys_setting/terminal标签颜色设置.md)
-  * [修改截图存储位置](sys_setting/修改截图存储位置.md)
   * [添加桌面图标](sys_setting/添加桌面图标.md)
+  * [修改截图存储位置](sys_setting/修改截图存储位置.md)
 
 ## 网络配置
 
@@ -70,6 +71,7 @@
   * [chm文件查看](office_tools/chm文件查看.md)
   * [DPTRP1文件传输](office_tools/DPTRP1文件传输.md)
   * [飞书webhook机器人设置](office_tools/飞书webhook机器人设置.md)
+  * [iptux局域网通信](office_tools/iptux局域网通信.md)
   * [krop pdf裁边工具](office_tools/krop&#32;pdf裁边工具.md)
   * [minicom使用](office_tools/minicom使用.md)
   * [pdftk剪切工具](office_tools/pdftk剪切工具.md)
