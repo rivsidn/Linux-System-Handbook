@@ -54,6 +54,9 @@
   * [drawio安装与使用](tools/chart/drawio安装与使用.md)
   * [yEd安装使用](tools/chart/yEd安装使用.md)
 * [man](tools/man文件查看.md)
+* [ssh无密码登录](tools/ssh无密码登录.md)
+* [vim](tools/vim/README.md)
+  * [vim中执行shell命令](tools/vim/vim中执行shell命令.md)
 
 
 # 浏览器设置
@@ -75,5 +78,6 @@
   * [ubuntu使用IE浏览器](office_tools/ubuntu使用IE浏览器.md)
   * [ubuntu安装win10虚拟机](office_tools/ubuntu安装win10虚拟机.md)
   * [ubuntu安装微信](office_tools/ubuntu安装微信.md)
+  * [-rdesktop使用](office_tools/rdesktop使用.md)
 
 
