@@ -45,6 +45,7 @@
   * [mv](manual/mv.md)
   * [ps](manual/ps.md)
   * [rename](manual/rename.md)
+  * [watch使用](manual/watch使用.md)
 
 # 开发工具
 
