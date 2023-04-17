@@ -83,4 +83,8 @@
   * [ubuntu安装微信](office_tools/ubuntu安装微信.md)
   * [-rdesktop使用](office_tools/rdesktop使用.md)
 
+# 其他
+
+* [其他](misc/README.md)
+  * [qemu-img转换文件格式](misc/qemu-img转换文件格式.md)
 
