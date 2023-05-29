@@ -8,7 +8,26 @@
 sudo apt-get install xdotool
 ```
 
-## 使用
+## 使用示例
+
+### 示例一
+
+```bash
+#! /bin/bash
+
+# 激活窗口
+xdotool windowactivate --sync 52601936
+# 执行命令ctrl+win+left，移动窗口到屏幕左侧
+xdotool key ctrl+Super+Left
+```
+
+
+
+
+
+
+
+## 命令行
 
 ```bash
 xdotool cmd args...
