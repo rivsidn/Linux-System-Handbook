@@ -11,6 +11,11 @@
   * [添加桌面图标](sys_setting/添加桌面图标.md)
   * [修改截图存储位置](sys_setting/修改截图存储位置.md)
 
+## 自动化工具
+
+* [自动化工具](auto_tools/README.md)
+  * [evtest捕获键盘动作](misc/evtest捕获键鼠动作.md)
+
 ## 网络配置
 
 * [网络配置](net_config/README.md)
