@@ -19,6 +19,9 @@ sudo apt-get install xdotool
 xdotool windowactivate --sync 52601936
 # 执行命令ctrl+win+left，移动窗口到屏幕左侧，此处Super首字母必须大写
 xdotool key ctrl+Super+Left
+# 窗口执行"ls"命令
+xdotool type "ls"
+xdotool key Return
 ```
 
 
