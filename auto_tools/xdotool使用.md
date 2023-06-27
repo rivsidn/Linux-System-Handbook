@@ -13,15 +13,36 @@ sudo apt-get install xdotool
 ### 示例一
 
 ```bash
+# 查找桌面0的终端
+xdotool search --desktop 0 --classname terminal
+```
+
+### 示例二
+
+```bash
 #! /bin/bash
 
-# 激活窗口
-xdotool windowactivate --sync 52601936
-# 执行命令ctrl+win+left，移动窗口到屏幕左侧，此处Super首字母必须大写
-xdotool key ctrl+Super+Left
-# 窗口执行"ls"命令
-xdotool type "ls"
-xdotool key Return
+# 分别查找桌面0、桌面3上的终端
+term0=$(xdotool search --desktop 0 --classname terminal)
+term3=$(xdotool search --desktop 3 --classname terminal)
+
+# 提前执行Return 是为了清空当前屏幕存在的脏数据，避免影响命令执行
+function xdotool_type()
+{
+	xdotool key Return
+	xdotool type "$*"
+	xdotool key Return
+}
+function xdotool_type_noclear()
+{
+	xdotool type "$*"
+	xdotool key Return
+}
+# 切换终端
+xdotool windowactivate --sync ${term0}
+xdotool key alt+1	# 切换tab页
+xdotool windowactivate --sync ${term3}
+xdotool key alt+2	# 同上
 ```
 
 

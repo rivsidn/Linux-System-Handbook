@@ -14,7 +14,8 @@
 ## 自动化工具
 
 * [自动化工具](auto_tools/README.md)
-  * [evtest捕获键盘动作](misc/evtest捕获键鼠动作.md)
+  * [evtest捕获键盘动作](auto_tools/evtest捕获键鼠动作.md)
+  * [xdotool使用](auto_tools/xdotool使用.md)
 
 ## 网络配置
 
