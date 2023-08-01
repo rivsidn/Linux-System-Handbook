@@ -39,5 +39,5 @@ CTRL-X		不能用
 CTRL-Y		不能用
 CTRL-Z		没实际用处，可用
 
-CTRL-$		跳转到行尾
+# 这个不好用, 映射<CTRL-M>会实际映射成<CR>
 CTRL-M		跳转到括号后
