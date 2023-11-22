@@ -1,9 +1,6 @@
 ### 安装
 
 ```bash
-sudo apt-get install texlive-full
-sudo apt-get install cjk-latex latex-cjk-chinese 
-
 ```
 
 
@@ -11,13 +8,9 @@ sudo apt-get install cjk-latex latex-cjk-chinese
 ### 示例程序
 
 ```tex
-\documentclass{article}
-\usepackage{xeCJK}
-
+\documentclass[UTF8]{ctexart}
 \begin{document}
-
-你好
-
+你好，world!
 \end{document}
 ```
 
