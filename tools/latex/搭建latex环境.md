@@ -22,3 +22,6 @@
 xelatex test.tex
 ```
 
+### 参考资料
+
+* [TeX Live - Quick install for Unix](https://tug.org/texlive/quickinstall.html)
