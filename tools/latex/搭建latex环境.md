@@ -58,7 +58,7 @@ let g:vimtex_compiler_latexmk_engines = {
     \ 'context (xetex)'  : '-pdf -pdflatex=''texexec --xtx''',
     \}
 
-let g:vimtex_view_general_viewer = '/usr/bin/okular'
+let g:vimtex_view_general_viewer = '/usr/bin/evince'
 
 ```
 
