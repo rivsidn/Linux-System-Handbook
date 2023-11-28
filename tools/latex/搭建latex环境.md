@@ -72,6 +72,17 @@ let g:vimtex_view_general_viewer = '/usr/bin/okular'
 
 
 
+###  文档
+
+```bash
+# 获取官方文档
+texdoc article
+```
+
+
+
+
+
 ### 参考资料
 
 * [TeX Live - Quick install for Unix](https://tug.org/texlive/quickinstall.html)
