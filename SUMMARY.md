@@ -65,12 +65,13 @@
 * [ssh无密码登录](tools/ssh无密码登录.md)
 * [vim](tools/vim/README.md)
   * [vim常用快捷键](tools/vim/vim常用快捷键.md)
+  * [vim浏览文件](tools/vim/vim浏览文件.md)
   * [vim标签](tools/vim/vim标签.md)
   * [vim标签页](tools/vim/vim标签页.md)
   * [vim中执行shell命令](tools/vim/vim中执行shell命令.md)
   * [vim插件](tools/vim/plugins/README.md)
     * [cscope使用](tools/vim/plugins/cscope使用.md)
-    * [makrdown预览](tools/vim/plugins/makrdown预览.md)
+    * [makrdown预览](tools/vim/plugins/markdown预览.md)
     * [netrw使用](tools/vim/plugins/netrw使用.md)
 
 
