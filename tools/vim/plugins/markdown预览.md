@@ -21,8 +21,5 @@ Bundle 'iamcco/markdown-preview.vim'
 
 不能实现多个文件之间切换，需要改进。
 
-
-
-
-
+可以实时刷新.
 

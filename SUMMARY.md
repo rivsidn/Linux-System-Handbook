@@ -70,9 +70,10 @@
   * [vim标签页](tools/vim/vim标签页.md)
   * [vim中执行shell命令](tools/vim/vim中执行shell命令.md)
   * [vim插件](tools/vim/plugins/README.md)
+    * [netrw使用](tools/vim/plugins/netrw使用.md)
     * [cscope使用](tools/vim/plugins/cscope使用.md)
     * [makrdown预览](tools/vim/plugins/markdown预览.md)
-    * [netrw使用](tools/vim/plugins/netrw使用.md)
+    * [makrdown表格](tools/vim/plugins/markdown表格.md)
 
 
 # 浏览器设置
