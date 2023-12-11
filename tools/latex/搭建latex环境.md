@@ -1,9 +1,7 @@
+## Latex基础示例
 ### 安装
 
 ```bash
-<<<<<<< HEAD
-
-=======
 cd /tmp
 wget https://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
 zcat < install-tl-unx.tar.gz | tar xf -
@@ -12,14 +10,11 @@ perl ./install-tl --no-interaction # as root or with writable destination
 
 ```
 
-**配置PATH**
+配置PATH
 
 ```bash
 export PATH="$PATH:/usr/local/texlive/2023/bin/x86_64-linux"
->>>>>>> b3bd4d986aa23aca34d626d0562c6430f9223122
 ```
-
-
 
 ### 示例程序
 
@@ -30,15 +25,20 @@ export PATH="$PATH:/usr/local/texlive/2023/bin/x86_64-linux"
 \end{document}
 ```
 
-
-
 ### 编译
 
 ```bash
 xelatex test.tex
 ```
 
+###  文档
 
+```bash
+ # 获取官方文档
+ texdoc article
+```
+
+## Latex与Vim
 
 ### Vim配置
 
@@ -62,7 +62,7 @@ let g:vimtex_view_general_viewer = '/usr/bin/evince'
 
 ```
 
-#### 使用
+### 使用
 
 ```tex
 % !TEX program = xelatex
@@ -70,19 +70,10 @@ let g:vimtex_view_general_viewer = '/usr/bin/evince'
 
 ```
 
+输入`\ll` 编译.
 
 
-###  文档
-
-```bash
-# 获取官方文档
-texdoc article
-```
-
-
-
-
-
-### 参考资料
+## 参考资料
 
 * [TeX Live - Quick install for Unix](https://tug.org/texlive/quickinstall.html)
+

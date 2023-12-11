@@ -34,13 +34,13 @@
     * [proxychains使用](net_config/proxy/proxychains使用.md)
     * [手机代理设置](net_config/proxy/手机代理设置.md)
 
-# 网络调试
+## 网络调试
 
 * [网络调试](net_trace/README.md)
   * [TCPing使用](net_trace/TCPing使用.md)
   * [arping使用](net_trace/arping使用.md)
 
-# 常用命令
+## 常用命令
 
 * [常用命令](manual/README.md)
   * [bridge](manual/bridge.md)
@@ -53,17 +53,20 @@
   * [rename](manual/rename.md)
   * [watch使用](manual/watch使用.md)
 
-# 开发工具
+## 开发工具
 
+* [man](tools/man文件查看.md)
+* [ssh无密码登录](tools/ssh无密码登录.md)
 * [git](tools/git/README.md)
   * [git常用命令](tools/git/git常用命令.md)
 * [chart](tools/chart/README.md)
   * [dia安装](tools/chart/dia安装.md)
   * [drawio安装与使用](tools/chart/drawio安装与使用.md)
   * [yEd安装使用](tools/chart/yEd安装使用.md)
-* [man](tools/man文件查看.md)
-* [ssh无密码登录](tools/ssh无密码登录.md)
+* [latex](tools/latex/README.md)
+  * [搭建latex环境](tools/latex/搭建latex环境.md)
 * [vim](tools/vim/README.md)
+  * [vim配置文件](tools/vim/vim配置文件.md)
   * [vim常用快捷键](tools/vim/vim常用快捷键.md)
   * [vim浏览文件](tools/vim/vim浏览文件.md)
   * [vim标签](tools/vim/vim标签.md)
@@ -72,16 +75,18 @@
   * [vim插件](tools/vim/plugins/README.md)
     * [netrw使用](tools/vim/plugins/netrw使用.md)
     * [cscope使用](tools/vim/plugins/cscope使用.md)
-    * [makrdown预览](tools/vim/plugins/markdown预览.md)
-    * [makrdown表格](tools/vim/plugins/markdown表格.md)
+    * [markdown预览](tools/vim/plugins/markdown预览.md)
+    * [markdown预览](tools/vim/plugins/markdown预览.md)
+    * [markdown导航窗](tools/vim/plugins/markdown导航窗.md)
+    * [markdown导航窗](tools/vim/plugins/markdown测试.md)
 
 
-# 浏览器设置
+## 浏览器设置
 
 * [浏览器设置](browers/README.md)
   * [CSDN精简显示](browers/CSDN精简显示.md)
 
-# 办公工具
+## 办公工具
 
 * [办公工具](office_tools/README.md)
   * [chm文件查看](office_tools/chm文件查看.md)
@@ -96,9 +101,9 @@
   * [ubuntu使用IE浏览器](office_tools/ubuntu使用IE浏览器.md)
   * [ubuntu安装win10虚拟机](office_tools/ubuntu安装win10虚拟机.md)
   * [ubuntu安装微信](office_tools/ubuntu安装微信.md)
-  * [-rdesktop使用](office_tools/rdesktop使用.md)
+  * [rdesktop使用](office_tools/rdesktop使用.md)
 
-# 其他
+## 其他
 
 * [其他](misc/README.md)
   * [docker常用命令](misc/docker常用命令.md)

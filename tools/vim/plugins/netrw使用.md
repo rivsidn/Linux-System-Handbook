@@ -2,13 +2,13 @@
 
 ### 启动
 
-| 快捷键                                      | 说明                                  |
-| ------------------------------------------- | ------------------------------------- |
-| :E \<path\><br />:EXplore \<path\>          | 当前窗口打开文件浏览器                |
-| :[N]Sex \<path\><br />:[N]Sexplore \<path\> | 水平窗口打开文件浏览器，N表示窗口大小 |
-| :[N]Vex \<path\><br />:[N]Vexplore \<path\> | 垂直窗口打开文件浏览器                |
-| :Tex \<path\><br />:Texplore \<path\>       | 在新的tab页打开文件浏览器             |
-
+| 快捷键                                                   | 说明                                  |
+| -------------------------------------------              | ------------------------------------- |
+| :E &lt;path&gt;<br/>:EXplore &lt;path&gt;                | 当前窗口打开文件浏览器                |
+| :[N]Sex &lt;path&gt;<br/>:[N]Sexplore &lt;path&gt;       | 水平窗口打开文件浏览器，N表示窗口大小 |
+| :[N]Vex &lt;path&gt;<br/>:[N]Vexplore &lt;path&gt;       | 垂直窗口打开文件浏览器                |
+| :[N]Vex[!] &lt;path&gt;<br/>:[N]Vexplore[!] &lt;path&gt; | 垂直窗口右侧打开文件浏览器            |
+| :Tex &lt;path&gt;<br/>:Texplore &lt;path&gt;             | 在新的tab页打开文件浏览器             |
 
 
 | 快捷键 | 说明                                                         |
