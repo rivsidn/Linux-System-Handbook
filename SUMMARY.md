@@ -78,7 +78,6 @@
     * [markdown预览](tools/vim/plugins/markdown预览.md)
     * [markdown预览](tools/vim/plugins/markdown预览.md)
     * [markdown导航窗](tools/vim/plugins/markdown导航窗.md)
-    * [markdown导航窗](tools/vim/plugins/markdown测试.md)
 
 
 ## 浏览器设置
