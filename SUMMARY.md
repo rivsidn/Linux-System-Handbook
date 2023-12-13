@@ -37,8 +37,12 @@
 ## 网络调试
 
 * [网络调试](net_trace/README.md)
-  * [TCPing使用](net_trace/TCPing使用.md)
   * [arping使用](net_trace/arping使用.md)
+  * [TCPing使用](net_trace/TCPing使用.md)
+  * [mausezahn](net_trace/mausezahn.md)
+  * [sendip用法](net_trace/sendip用法.md)
+  * [tcpdump用法](net_trace/tcpdump用法.md)
+  * [tcpreplay用法](net_trace/tcpreplay用法.md)
 
 ## 常用命令
 
