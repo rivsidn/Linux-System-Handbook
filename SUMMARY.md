@@ -64,6 +64,7 @@
 * [ssh无密码登录](tools/ssh无密码登录.md)
 * [git](tools/git/README.md)
   * [git常用命令](tools/git/git常用命令.md)
+  * [git常用配置](tools/git/git常用命令.md)
 * [chart](tools/chart/README.md)
   * [dia安装](tools/chart/dia安装.md)
   * [drawio安装与使用](tools/chart/drawio安装与使用.md)
