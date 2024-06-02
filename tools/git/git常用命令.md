@@ -19,6 +19,9 @@ git checkout -b <branch-name> <remote-branch>
 ```bash
 # 全局配置比较工具为meld
 git config --global diff.tool meld
+
+# 解决显示中文异常问题
+git config --global core.quotepath 0
 ```
 
 ## describe

@@ -10,6 +10,7 @@
   * [terminal标签颜色设置](sys_setting/terminal标签颜色设置.md)
   * [添加桌面图标](sys_setting/添加桌面图标.md)
   * [修改截图存储位置](sys_setting/修改截图存储位置.md)
+  * [禁止U盘自动挂载](sys_setting/禁止U盘自动挂载.md)
 
 ## 自动化工具
 
