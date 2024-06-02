@@ -93,18 +93,21 @@
 
 * [办公工具](office_tools/README.md)
   * [chm文件查看](office_tools/chm文件查看.md)
-  * [DPTRP1文件传输](office_tools/DPTRP1文件传输.md)
   * [飞书webhook机器人设置](office_tools/飞书webhook机器人设置.md)
   * [iptux局域网通信](office_tools/iptux局域网通信.md)
-  * [krop pdf裁边工具](office_tools/krop&#32;pdf裁边工具.md)
   * [minicom使用](office_tools/minicom使用.md)
-  * [pdftk剪切工具](office_tools/pdftk剪切工具.md)
   * [toDesk安装](office_tools/toDesk安装.md)
   * [trustaccess安装](office_tools/trustaccess安装.md)
   * [ubuntu使用IE浏览器](office_tools/ubuntu使用IE浏览器.md)
   * [ubuntu安装win10虚拟机](office_tools/ubuntu安装win10虚拟机.md)
   * [ubuntu安装微信](office_tools/ubuntu安装微信.md)
   * [rdesktop使用](office_tools/rdesktop使用.md)
+  * [阅读工具](office_tools/READING/README.md)
+    * [DPTRP1文件传输](office_tools/READING/DPTRP1文件传输.md)
+    * [krop pdf裁边工具](office_tools/READING/krop&#32;pdf裁边工具.md)
+    * [pdftk剪切工具](office_tools/READING/pdftk剪切工具.md)
+    * [kindle使用](office_tools/READING/kindle使用.md)
+    * [ebooks资源](office_tools/READING/ebooks资源.md)
 
 ## 其他
 
