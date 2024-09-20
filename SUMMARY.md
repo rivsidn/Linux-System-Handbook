@@ -11,6 +11,7 @@
   * [添加桌面图标](sys_setting/添加桌面图标.md)
   * [修改截图存储位置](sys_setting/修改截图存储位置.md)
   * [禁止U盘自动挂载](sys_setting/禁止U盘自动挂载.md)
+  * [ubuntu系统开机启动设置](sys_setting/ubuntu系统开启启动设置.md)
 
 ## 自动化工具
 
@@ -49,6 +50,7 @@
 
 * [常用命令](manual/README.md)
   * [bridge](manual/bridge.md)
+  * [iconv](manual/iconv修改文件编码格式.md)
   * [ipvsadm](manual/ipvsadm.md)
   * [ip-xfrm](manual/ip-xfrm.md)
   * [ip-link](manual/ip-link.md)
@@ -84,6 +86,11 @@
     * [markdown预览](tools/vim/plugins/markdown预览.md)
     * [markdown预览](tools/vim/plugins/markdown预览.md)
     * [markdown导航窗](tools/vim/plugins/markdown导航窗.md)
+
+## 数据库
+
+* [数据库](database/README.md)
+  * [mongodb使用](database/mongodb使用.md)
 
 
 ## 浏览器设置
