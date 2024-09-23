@@ -69,6 +69,19 @@ StartLimitInterval=1
 WantedBy=multi-user.target
 ```
 
+
+
+```bash
+# 重新加载
+sudo systemctl reload-daemon
+# 启动
+sudo systemctl start daemon.service
+# 开机自启动
+sudo systemctl enable daemon.service
+```
+
+
+
 ### Keynav开机启动
 
 `~/.config/autostart` 下加入文件`keynav.desktop`.
