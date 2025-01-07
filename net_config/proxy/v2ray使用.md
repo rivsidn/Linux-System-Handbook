@@ -5,14 +5,14 @@
 ### 安装
 
 ```bash
-# bash <(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh)
+# sudo apt install v2ray
 ```
 
 
 
 ### 修改配置文件
 
-配置文件位于 `/usr/local/etc/v2ray/config.json`，从其他客户端导出配置，写入即可。
+配置文件位于 `/etc/v2ray/config.json`，从其他客户端导出配置，写入即可。
 
 
 
