@@ -5,3 +5,5 @@
 sudo snap install wps-office  
 sudo snap connect wps-office:removable-media
 ```
+
+启动过程中报异常，需要安装字体到`/usr/share/fonts/wps-office` 下。

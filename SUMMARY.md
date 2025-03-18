@@ -19,6 +19,10 @@
   * [evtest捕获键盘动作](auto_tools/evtest捕获键鼠动作.md)
   * [xdotool使用](auto_tools/xdotool使用.md)
 
+## AI辅助编程
+* [AI辅助编程](AI_powered/README.md)
+  * [](AI_powered/dummy.md)
+
 ## 网络配置
 
 * [网络配置](net_config/README.md)
@@ -76,17 +80,21 @@
   * [搭建latex环境](tools/latex/搭建latex环境.md)
 * [vim](tools/vim/README.md)
   * [vim配置文件](tools/vim/vim配置文件.md)
+  * [vim常用配置](tools/vim/vim常用配置.md)
   * [vim常用快捷键](tools/vim/vim常用快捷键.md)
+  * [vim常用命令](tools/vim/vim常用命令.md)
   * [vim浏览文件](tools/vim/vim浏览文件.md)
   * [vim标签](tools/vim/vim标签.md)
   * [vim标签页](tools/vim/vim标签页.md)
   * [vim中执行shell命令](tools/vim/vim中执行shell命令.md)
   * [vim插件](tools/vim/plugins/README.md)
-    * [netrw使用](tools/vim/plugins/netrw使用.md)
+    * [bookmarks使用](tools/vim/plugins/bookmarks使用.md)
     * [cscope使用](tools/vim/plugins/cscope使用.md)
+    * [drawIt使用](tools/vim/plugins/drawIt使用.md)
     * [markdown预览](tools/vim/plugins/markdown预览.md)
     * [markdown预览](tools/vim/plugins/markdown预览.md)
     * [markdown导航窗](tools/vim/plugins/markdown导航窗.md)
+    * [netrw使用](tools/vim/plugins/netrw使用.md)
 
 ## 数据库
 
@@ -119,6 +127,7 @@
     * [pdftk剪切工具](office_tools/READING/pdftk剪切工具.md)
     * [kindle使用](office_tools/READING/kindle使用.md)
     * [ebooks资源](office_tools/READING/ebooks资源.md)
+    * [英文PDF阅读](office_tools/READING/英文PDF阅读.md)
 
 ## 其他
 
