@@ -1,6 +1,6 @@
 
 ```bash
-sudo apt-get install vim-gtk
+sudo apt-get install vim-gtk3
 ```
 
 

@@ -36,7 +36,7 @@ ssh-keygen -b 4096 -t rsa
 ### 上传公钥到服务器
 
 ```bash
-ssh-copy-id username@server-ip
+ssh-copy-id -i ~/.ssh/id_xxx.pub username@server-ip
 ```
 
 输入用户密码即可，`SSH`公钥就会自动上传了，公钥保存在服务器的`.ssh/authorized_keys` 中。此后登录服务器，仅仅第一次需要输入密钥密码， 之后不想要输入密码。

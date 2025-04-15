@@ -20,8 +20,9 @@
   * [xdotool使用](auto_tools/xdotool使用.md)
 
 ## AI辅助编程
+
 * [AI辅助编程](AI_powered/README.md)
-  * [](AI_powered/dummy.md)
+  * [cursor使用](AI_powered/cursor使用.md)
 
 ## 网络配置
 
@@ -72,13 +73,21 @@
 * [git](tools/git/README.md)
   * [git常用命令](tools/git/git常用命令.md)
   * [git常用配置](tools/git/git常用命令.md)
-* [chart](tools/chart/README.md)
-  * [dia安装](tools/chart/dia安装.md)
-  * [drawio安装与使用](tools/chart/drawio安装与使用.md)
-  * [yEd安装使用](tools/chart/yEd安装使用.md)
+* [drawing](tools/drawing/README.md)
+  * [dia安装](tools/drawing/dia安装.md)
+  * [drawio安装与使用](tools/drawing/drawio安装与使用.md)
+  * [yEd安装使用](tools/drawing/yEd安装使用.md)
+  * [PlantUML使用](tools/drawing/PlantUML使用.md)
 * [latex](tools/latex/README.md)
   * [搭建latex环境](tools/latex/搭建latex环境.md)
+* [代码阅读工具](tools/code_reading/README.md)
+  * [understand工具](tools/code_reading/understand工具.md)
 * [vim](tools/vim/README.md)
+  * [vim调试](tools/vim/vim调试.md)
+  * [vimscript调试](tools/vim/vimscript调试.md)
+  * [vim启动配置文件](tools/vim/vim启动配置文件.md)
+  * [vim选项](tools/vim/vim选项.md)
+  * [vim脚本](tools/vim/vim脚本.md)
   * [vim配置文件](tools/vim/vim配置文件.md)
   * [vim常用配置](tools/vim/vim常用配置.md)
   * [vim常用快捷键](tools/vim/vim常用快捷键.md)
@@ -128,6 +137,12 @@
     * [kindle使用](office_tools/READING/kindle使用.md)
     * [ebooks资源](office_tools/READING/ebooks资源.md)
     * [英文PDF阅读](office_tools/READING/英文PDF阅读.md)
+
+## 终端工具
+
+* [终端工具](terminal/README.md)
+  * [Terminal常用操作](terminal/Terminal常用操作.md)
+  * [tmux使用](terminal/tmux使用.md)
 
 ## 其他
 
