@@ -21,6 +21,16 @@ python3 vim_starup.py starup.log
 
 ## 启动过程解析
 
+### 脚本加载命令
+
+
+
+
+
+
+
+
+
 
 
 
@@ -28,6 +38,51 @@ python3 vim_starup.py starup.log
 
 
 ## 附录
+
+### TODO
+
+* `vundle` 管理脚本是如何实现的？
+
+* 各种不同的启动路径
+
+  为什么`system vimrc file` 两个不同？是如何设置的？
+
+  `runtimepath` `packpath` 两个路径区别？
+
+  `$HOME`  `$VIM` `VIMRUNTIME`  这些宏分别是做什么用的？
+
+  ```
+  //自己编译的
+     system vimrc file: "$VIM/vimrc"
+       user vimrc file: "$HOME/.vimrc"
+   2nd user vimrc file: "~/.vim/vimrc"
+   3rd user vimrc file: "~/.config/vim/vimrc"
+        user exrc file: "$HOME/.exrc"
+         defaults file: "$VIMRUNTIME/defaults.vim"
+    fall-back for $VIM: "/usr/local/share/vim"
+  
+  //系统安装的
+     system vimrc file: "/etc/vim/vimrc"
+       user vimrc file: "$HOME/.vimrc"
+   2nd user vimrc file: "~/.vim/vimrc"
+   3rd user vimrc file: "~/.config/vim/vimrc"
+        user exrc file: "$HOME/.exrc"
+    system gvimrc file: "/etc/vim/gvimrc"
+      user gvimrc file: "$HOME/.gvimrc"
+  2nd user gvimrc file: "~/.vim/gvimrc"
+  3rd user gvimrc file: "~/.config/vim/gvimrc"
+         defaults file: "$VIMRUNTIME/defaults.vim"
+      system menu file: "$VIMRUNTIME/menu.vim"
+    fall-back for $VIM: "/usr/share/vim"
+  ```
+
+* `source` 执行时候会去哪里找？
+
+
+
+
+
+
 
 ### 调用关系图生成脚本
 

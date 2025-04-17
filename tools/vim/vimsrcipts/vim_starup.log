@@ -1,0 +1,112 @@
+sourcing "/etc/vim/vimrc"
+line 23: sourcing "/usr/share/vim/vim91/debian.vim"
+finished sourcing /usr/share/vim/vim91/debian.vim
+continuing in /etc/vim/vimrc
+line 34: sourcing "/usr/share/vim/vim91/syntax/syntax.vim"
+line 20: sourcing "/usr/share/vim/vim91/syntax/synload.vim"
+line 22: sourcing "/usr/share/vim/vim91/syntax/syncolor.vim"
+line 57: sourcing "/usr/share/vim/vim91/colors/lists/default.vim"
+finished sourcing /usr/share/vim/vim91/colors/lists/default.vim
+continuing in /usr/share/vim/vim91/syntax/syncolor.vim
+finished sourcing /usr/share/vim/vim91/syntax/syncolor.vim
+continuing in /usr/share/vim/vim91/syntax/synload.vim
+finished sourcing /usr/share/vim/vim91/syntax/synload.vim
+continuing in /usr/share/vim/vim91/syntax/syntax.vim
+line 26: sourcing "/usr/share/vim/vim91/filetype.vim"
+finished sourcing /usr/share/vim/vim91/filetype.vim
+continuing in /usr/share/vim/vim91/syntax/syntax.vim
+line 0: sourcing "/usr/share/vim/vim91/scripts.vim"
+line 27: sourcing "/usr/share/vim/vim91/autoload/dist/script.vim"
+finished sourcing /usr/share/vim/vim91/autoload/dist/script.vim
+continuing in /usr/share/vim/vim91/scripts.vim
+finished sourcing /usr/share/vim/vim91/scripts.vim
+continuing in BufRead Autocommands for "*"
+finished sourcing /usr/share/vim/vim91/syntax/syntax.vim
+continuing in /etc/vim/vimrc
+finished sourcing /etc/vim/vimrc
+
+
+
+sourcing "$HOME/.vimrc"
+line 2: sourcing "/usr/share/vim/vim91/ftoff.vim"
+finished sourcing /usr/share/vim/vim91/ftoff.vim
+continuing in /home/yuchao/.vimrc
+line 5: sourcing "/home/yuchao/.vim/bundle/Vundle.vim/autoload/vundle.vim"
+finished sourcing /home/yuchao/.vim/bundle/Vundle.vim/autoload/vundle.vim
+continuing in /home/yuchao/.vimrc
+line 4: sourcing "/home/yuchao/.vim/bundle/Vundle.vim/autoload/vundle/config.vim"
+finished sourcing /home/yuchao/.vim/bundle/Vundle.vim/autoload/vundle/config.vim
+continuing in vundle#rc
+line 36: sourcing "/usr/share/vim/vim91/filetype.vim"
+line 3133: sourcing "/home/yuchao/.vim/bundle/vimtex/ftdetect/cls.vim"
+finished sourcing /home/yuchao/.vim/bundle/vimtex/ftdetect/cls.vim
+continuing in /usr/share/vim/vim91/filetype.vim
+line 3133: sourcing "/home/yuchao/.vim/bundle/vimtex/ftdetect/tex.vim"
+finished sourcing /home/yuchao/.vim/bundle/vimtex/ftdetect/tex.vim
+continuing in /usr/share/vim/vim91/filetype.vim
+line 3133: sourcing "/home/yuchao/.vim/bundle/vimtex/ftdetect/tikz.vim"
+finished sourcing /home/yuchao/.vim/bundle/vimtex/ftdetect/tikz.vim
+continuing in /usr/share/vim/vim91/filetype.vim
+finished sourcing /usr/share/vim/vim91/filetype.vim
+continuing in /home/yuchao/.vimrc
+line 36: sourcing "/usr/share/vim/vim91/ftplugin.vim"
+finished sourcing /usr/share/vim/vim91/ftplugin.vim
+continuing in /home/yuchao/.vimrc
+line 37: sourcing "/usr/share/vim/vim91/filetype.vim"
+finished sourcing /usr/share/vim/vim91/filetype.vim
+continuing in /home/yuchao/.vimrc
+line 37: sourcing "/usr/share/vim/vim91/indent.vim"
+finished sourcing /usr/share/vim/vim91/indent.vim
+continuing in /home/yuchao/.vimrc
+finished sourcing $HOME/.vimrc
+sourcing "/home/yuchao/.vim/plugin/JumpToNextClosingChar.vim"
+finished sourcing /home/yuchao/.vim/plugin/JumpToNextClosingChar.vim
+sourcing "/home/yuchao/.vim/bundle/a.vim/plugin/a.vim"
+finished sourcing /home/yuchao/.vim/bundle/a.vim/plugin/a.vim
+sourcing "/home/yuchao/.vim/bundle/AutoClose/plugin/autoclose.vim"
+finished sourcing /home/yuchao/.vim/bundle/AutoClose/plugin/autoclose.vim
+sourcing "/home/yuchao/.vim/bundle/cscope.vim/plugin/cscope.vim"
+finished sourcing /home/yuchao/.vim/bundle/cscope.vim/plugin/cscope.vim
+sourcing "/home/yuchao/.vim/bundle/DrawIt/plugin/DrawItPlugin.vim"
+finished sourcing /home/yuchao/.vim/bundle/DrawIt/plugin/DrawItPlugin.vim
+sourcing "/home/yuchao/.vim/bundle/DrawIt/plugin/cecutil.vim"
+finished sourcing /home/yuchao/.vim/bundle/DrawIt/plugin/cecutil.vim
+sourcing "/home/yuchao/.vim/bundle/surround.vim/plugin/surround.vim"
+finished sourcing /home/yuchao/.vim/bundle/surround.vim/plugin/surround.vim
+sourcing "/home/yuchao/.vim/bundle/taglist.vim/plugin/taglist.vim"
+finished sourcing /home/yuchao/.vim/bundle/taglist.vim/plugin/taglist.vim
+sourcing "/home/yuchao/.vim/bundle/tabular/plugin/Tabular.vim"
+finished sourcing /home/yuchao/.vim/bundle/tabular/plugin/Tabular.vim
+sourcing "/home/yuchao/.vim/bundle/vimtex/plugin/vimtex.vim"
+finished sourcing /home/yuchao/.vim/bundle/vimtex/plugin/vimtex.vim
+sourcing "/usr/share/vim/vim91/plugin/getscriptPlugin.vim"
+finished sourcing /usr/share/vim/vim91/plugin/getscriptPlugin.vim
+sourcing "/usr/share/vim/vim91/plugin/gzip.vim"
+finished sourcing /usr/share/vim/vim91/plugin/gzip.vim
+sourcing "/usr/share/vim/vim91/plugin/logiPat.vim"
+finished sourcing /usr/share/vim/vim91/plugin/logiPat.vim
+sourcing "/usr/share/vim/vim91/plugin/manpager.vim"
+finished sourcing /usr/share/vim/vim91/plugin/manpager.vim
+sourcing "/usr/share/vim/vim91/plugin/matchparen.vim"
+finished sourcing /usr/share/vim/vim91/plugin/matchparen.vim
+sourcing "/usr/share/vim/vim91/plugin/netrwPlugin.vim"
+finished sourcing /usr/share/vim/vim91/plugin/netrwPlugin.vim
+sourcing "/usr/share/vim/vim91/plugin/rrhelper.vim"
+finished sourcing /usr/share/vim/vim91/plugin/rrhelper.vim
+sourcing "/usr/share/vim/vim91/plugin/spellfile.vim"
+finished sourcing /usr/share/vim/vim91/plugin/spellfile.vim
+sourcing "/usr/share/vim/vim91/plugin/tarPlugin.vim"
+finished sourcing /usr/share/vim/vim91/plugin/tarPlugin.vim
+sourcing "/usr/share/vim/vim91/plugin/tohtml.vim"
+finished sourcing /usr/share/vim/vim91/plugin/tohtml.vim
+sourcing "/usr/share/vim/vim91/plugin/vimballPlugin.vim"
+finished sourcing /usr/share/vim/vim91/plugin/vimballPlugin.vim
+sourcing "/usr/share/vim/vim91/plugin/zipPlugin.vim"
+finished sourcing /usr/share/vim/vim91/plugin/zipPlugin.vim
+sourcing "/home/yuchao/.vim/bundle/tabular/after/plugin/TabularMaps.vim"
+line 5: sourcing "/home/yuchao/.vim/bundle/tabular/autoload/tabular.vim"
+finished sourcing /home/yuchao/.vim/bundle/tabular/autoload/tabular.vim
+continuing in <SNR>27_ParsePattern
+finished sourcing /home/yuchao/.vim/bundle/tabular/after/plugin/TabularMaps.vim
+sourcing "/home/yuchao/.vim/bundle/table-mode/after/plugin/table-mode.vim"
+finished sourcing /home/yuchao/.vim/bundle/table-mode/after/plugin/table-mode.vim

@@ -1,4 +1,25 @@
 
+
+## 脚本函数
+
+### has
+
+是否支持某种特性。
+
+```vim
+# 如果不支持"syntax"特性，则结束.
+if !hash("syntax")
+	finish
+endif
+```
+
+
+
+
+
+
+
+
 ```vimscript
 vim9script noclear
 # Vim global plugin for correcting typing mistakes
