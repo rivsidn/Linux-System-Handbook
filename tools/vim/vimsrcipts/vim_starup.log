@@ -59,6 +59,8 @@ line 37: sourcing "/usr/share/vim/vim91/indent.vim"
 finished sourcing /usr/share/vim/vim91/indent.vim
 continuing in /home/yuchao/.vimrc
 finished sourcing $HOME/.vimrc
+
+
 sourcing "/home/yuchao/.vim/plugin/JumpToNextClosingChar.vim"
 finished sourcing /home/yuchao/.vim/plugin/JumpToNextClosingChar.vim
 sourcing "/home/yuchao/.vim/bundle/a.vim/plugin/a.vim"
