@@ -1,0 +1,261 @@
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'a.vim'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'AutoClose'
+Plugin 'cscope.vim'
+Plugin 'DrawIt'
+Plugin 'surround.vim'
+Plugin 'taglist.vim'
+Plugin 'The-NERD-tree'
+"leaderf安装
+"Plugin 'yggdroot/leaderf'
+"coc插件安装
+"Plugin 'neoclide/coc-nvim'
+"markdown预览
+"Plugin 'iamcco/markdown-preview.vim'
+"markdown标题
+"Plugin 'majutsushi/tagbar'
+"Plugin 'potion'
+"markdown表格
+Plugin 'tabular'
+Plugin 'table-mode'
+Plugin 'lervag/vimtex'
+"Plugin 'vim-signature'
+"Plugin 'vim-bookmark'
+"Plugin 'ucompleteme'
+
+call vundle#end()            " required
+filetype plugin on           " required
+filetype indent on           " required
+
+" Brief help
+" 	:PluginList          - list configured plugins
+" 	:PluginInstall(!)    - install (update) plugins
+" 	:PluginSearch(!) foo - search (or refresh cache first) for foo
+" 	:PluginClean(!)      - confirm (or auto-approve) removal of unused plugins
+"
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line
+
+"show line number, command, status line and so on
+set history=1000
+set ruler
+set number
+set showcmd
+set showmode
+set laststatus=2
+set cmdheight=2
+set scrolloff=3
+
+"fill space between windows
+set fillchars=stl:\ ,stlnc:\ ,vert:\
+
+"turn off annoying err sound
+set noerrorbells
+set novisualbell
+set vb t_vb=
+
+"turn off splash screen
+set shortmess=atI
+
+"syntax and theme
+syntax on
+"colorscheme molokai
+set cursorline
+"set cursorcolumn
+
+"tab and indent
+set smarttab
+set shiftwidth=8
+set tabstop=8
+set autoindent
+set cindent
+
+"files,backups and encoding
+set nobackup
+set noswapfile
+set autoread
+set autowrite
+set autochdir
+set fileformats=unix,dos,mac
+filetype plugin on
+filetype indent on
+
+"text search and replace
+set showmatch
+set matchtime=2
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+set magic
+set lazyredraw
+set nowrapscan
+set iskeyword+=_,$,@,%,#,-,.
+
+"默认情况下vim打开gzip压缩文件时会将文件自动解压，
+"该选项用于关闭该功能.
+let g:loaded_gzip = 1
+
+"create new file
+nnoremap <Leader>e :call CreateFileUnderCursor()<CR>
+function! CreateFileUnderCursor()
+    " 获取光标下的文件路径
+    let file_path = expand('<cfile>')
+    
+    " 检查文件是否已经存在
+    if filereadable(file_path)
+        echo "File already exists: " . file_path
+    else
+        " 创建新文件并编辑
+        execute 'edit ' . file_path
+        echo "New file created: " . file_path
+    endif
+endfunction
+
+"netrw setting
+let g:netrw_winsize=20
+
+"taglist setting
+let Tlist_Auto_Open=0
+let Tlist_Auto_Update=1
+let Tlist_Exit_OnlyWindow=1
+let Tlist_File_Fold_Auto_Close=1
+"let Tlist_Show_One_File=1
+nnoremap <silent> <F2> :TlistToggle<CR>
+nnoremap <silent> <F8> :TlistOpen<CR>
+nnoremap <silent> <F4> :TlistUpdate<CR>
+set tags=tags;
+
+"cscope setting
+set csprg=/usr/bin/cscope
+set cst
+set csto=1
+set csre
+set cspc=3
+set cscopequickfix=s-,g-,d-,c-,t-,e-,f-,i-
+nmap <C-_>s :cs find s <C-R>=expand("<cword>")<CR><CR>
+nmap <C-_>g :cs find g <C-R>=expand("<cword>")<CR><CR>
+nmap <C-_>c :cs find c <C-R>=expand("<cword>")<CR><CR>
+nmap <C-_>t :cs find t <C-R>=expand("<cword>")<CR><CR>
+nmap <C-_>e :cs find e <C-R>=expand("<cword>")<CR><CR>
+nmap <C-_>f :cs find f <C-R>=expand("<cfile>")<CR><CR>
+nmap <C-_>i :cs find i <C-R>=expand("<cfile>")<CR><CR>
+nmap <C-_>d :cs find d <C-R>=expand("<cword>")<CR><CR>
+if filereadable("cscope.out")
+	cs add cscope.out
+endif
+if filereadable("../cscope.out")
+	cs add ../cscope.out
+endif
+if filereadable("../../cscope.out")
+	cs add ../../cscope.out
+endif
+if filereadable("../../../cscope.out")
+	cs add ../../../cscope.out
+endif
+if filereadable("../../../../cscope.out")
+	cs add ../../../../cscope.out
+endif
+if filereadable("../../../../../cscope.out")
+	cs add ../../../../../cscope.out
+endif
+
+"NERDTree setting
+"autocmd VimEnter * NERDTree
+let NERDTreeWinPos="right"
+let NERDTreeShowBookmarks=1
+nnoremap <silent> <F9> :NERDTreeToggle<CR>
+
+"markdown-preview setting
+let g:mkdp_auto_close = 0
+
+"tagbar setting
+let g:tagbar_left=1
+let g:tagbar_width=30
+let g:tagbar_type_markdown = {
+        \ 'ctagstype' : 'markdown',
+        \ 'kinds' : [
+                \ 'h:headings',
+        \ ],
+    \ 'sort' : 0
+\ }
+nnoremap tb :TagbarToggle<CR>
+
+"table-mode setting
+let g:table_mode_border=0
+
+"LaTeX配置
+let g:tex_flavor='latex'
+let g:vimtex_compiler_latexmk_engines = {
+    \ '_'                : '-pdf',
+    \ 'pdflatex'         : '-pdf',
+    \ 'dvipdfex'         : '-pdfdvi',
+    \ 'lualatex'         : '-lualatex',
+    \ 'xelatex'          : '-xelatex',
+    \ 'context (pdftex)' : '-pdf -pdflatex=texexec',
+    \ 'context (luatex)' : '-pdf -pdflatex=context',
+    \ 'context (xetex)'  : '-pdf -pdflatex=''texexec --xtx''',
+    \}
+
+let g:vimtex_view_general_viewer = '/usr/bin/evince'
+
+"leaderF设置
+"let g:Lf_ShortcutF = '<c-p>'
+"let g:Lf_WorkingDirectoryMode = 'AF'
+"let g:Lf_RootMarkers = ['.git', '.svn', '.hg', '.project', '.root']
+"let g:Lf_UseVersionControlTool=1 "这个是默认选项, 可以不写
+"let g:Lf_DefaultExternalTool='rg'
+"let g:Lf_PreviewInPopup = 1
+"nmap <unique> <leader>fr <Plug>LeaderfRgPrompt
+"nmap <unique> <leader>fra <Plug>LeaderfRgCwordLiteralNoBoundary
+"nmap <unique> <leader>frb <Plug>LeaderfRgCwordLiteralBoundary
+"nmap <unique> <leader>frc <Plug>LeaderfRgCwordRegexNoBoundary
+"nmap <unique> <leader>frd <Plug>LeaderfRgCwordRegexBoundary
+"vmap <unique> <leader>fra <Plug>LeaderfRgVisualLiteralNoBoundary
+"vmap <unique> <leader>frb <Plug>LeaderfRgVisualLiteralBoundary
+"vmap <unique> <leader>frc <Plug>LeaderfRgVisualRegexNoBoundary
+"vmap <unique> <leader>frd <Plug>LeaderfRgVisualRegexBoundary
+
+
+"map设置
+inoremap jk <ESC>
+nnoremap <Leader>ev :vsplit $MYVIMRC<CR>
+nnoremap <Leader>sv :source $MYVIMRC<CR>
+
+augroup filetype_vim
+	autocmd!
+	autocmd FileType vim setlocal foldmethod=marker
+augroup END
+
+augroup filetype_c
+	autocmd!
+	autocmd Filetype c   :source $HOME/.vim/filetype/c.vim
+	autocmd Filetype cpp :source $HOME/.vim/filetype/c.vim
+augroup END
+
+function! SetCppTemplate()
+    call append(0, '#include <iostream>')
+    call append(1, '#include <set>')
+    call append(2, '')
+    call append(3, 'int main()')
+    call append(4, '{')
+    call append(5, '')
+    call append(6, '	return 0;')
+    call append(7, '}')
+    normal! 6Gk
+endfunction
+
+augroup filetype_cpp
+    autocmd!
+    autocmd BufNewFile *.cpp call SetCppTemplate()
+augroup END
+
