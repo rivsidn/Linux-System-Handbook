@@ -89,7 +89,6 @@
   * [vim-Ex命令](tools/vim/vim-Ex命令.md)
   * [vim选项](tools/vim/vim选项.md)
   * [vim脚本](tools/vim/vim脚本.md)
-  * [vim配置文件](tools/vim/vim配置文件.md)
   * [vim常用配置](tools/vim/vim常用配置.md)
   * [vim常用快捷键](tools/vim/vim常用快捷键.md)
   * [vim常用命令](tools/vim/vim常用命令.md)
