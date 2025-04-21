@@ -1,12 +1,12 @@
-## 安装插件
+## markdown-preview
 
-```bash
+### 安装
+
+```vim
 Bundle 'iamcco/markdown-preview.vim'
 ```
 
-
-
-## 使用
+### 使用
 
 ```bash
 # 开启预览
@@ -15,11 +15,22 @@ Bundle 'iamcco/markdown-preview.vim'
 :MarkdownPreviewStop
 ```
 
+## vim-instant-markdown
 
+### 安装
 
-##  TODO
+```vim
+Plug 'suan/vim-instant-markdown',{'for':'markdown'}
+```
 
-不能实现多个文件之间切换，需要改进。
+### 使用
 
-可以实时刷新.
+```vim
+let g:instant_markdown_mathjax = 1
+let g:instant_markdown_mermaid = 1
+let g:instant_markdown_theme = 'light'
 
+"预览开启or关闭
+nnoremap <silent> <F5> :InstantMarkdownPreview<CR>
+nnoremap <silent> <F6> :InstantMarkdownStop<CR>
+```

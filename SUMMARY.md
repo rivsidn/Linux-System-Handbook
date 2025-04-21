@@ -103,6 +103,7 @@
     * [markdown预览](tools/vim/plugins/markdown预览.md)
     * [markdown预览](tools/vim/plugins/markdown预览.md)
     * [markdown导航窗](tools/vim/plugins/markdown导航窗.md)
+    * [NERDTree使用](tools/vim/plugins/NERDTree使用.md)
     * [netrw使用](tools/vim/plugins/netrw使用.md)
 
 ## 数据库
