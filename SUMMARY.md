@@ -82,6 +82,9 @@
   * [搭建latex环境](tools/latex/搭建latex环境.md)
 * [代码阅读工具](tools/code_reading/README.md)
   * [understand工具](tools/code_reading/understand工具.md)
+
+### vim
+
 * [vim](tools/vim/README.md)
   * [vim调试](tools/vim/vim调试.md)
   * [vimscript调试](tools/vim/vimscript调试.md)
@@ -93,6 +96,7 @@
   * [vim常用快捷键](tools/vim/vim常用快捷键.md)
   * [vim常用命令](tools/vim/vim常用命令.md)
   * [vim浏览文件](tools/vim/vim浏览文件.md)
+  * [vim-buffer使用](tools/vim/vim-buffer使用.md)
   * [vim标签](tools/vim/vim标签.md)
   * [vim标签页](tools/vim/vim标签页.md)
   * [vim中执行shell命令](tools/vim/vim中执行shell命令.md)
@@ -103,8 +107,9 @@
     * [markdown预览](tools/vim/plugins/markdown预览.md)
     * [markdown预览](tools/vim/plugins/markdown预览.md)
     * [markdown导航窗](tools/vim/plugins/markdown导航窗.md)
-    * [NERDTree使用](tools/vim/plugins/NERDTree使用.md)
     * [netrw使用](tools/vim/plugins/netrw使用.md)
+    * [NERDTree使用](tools/vim/plugins/NERDTree使用.md)
+    * [vim-table-mode使用](tools/vim/plugins/vim-table-mode使用.md)
 
 ## 数据库
 
