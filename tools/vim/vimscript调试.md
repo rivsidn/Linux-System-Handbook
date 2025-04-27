@@ -1,3 +1,6 @@
+
+## vimscript调试
+
 ### 进入调试模式
 
 进入调试模式有三种方式：
@@ -20,14 +23,20 @@
    vim -c "breakadd file */explorer.vim" 
    ```
 
-
-
-### 调试指定脚本
+### 指定脚本调试
 
 ```bash
 vim -u test.vim
 ```
 
+### 查看当前变量
+
+调试过程中可以通过`echo` 命令查看变量.
+
+```vim
+echo g:global
+echo s:script
+```
 
 
 

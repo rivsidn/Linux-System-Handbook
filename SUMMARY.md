@@ -82,6 +82,7 @@
   * [搭建latex环境](tools/latex/搭建latex环境.md)
 * [代码阅读工具](tools/code_reading/README.md)
   * [understand工具](tools/code_reading/understand工具.md)
+  * [doxygen使用](tools/code_reading/doxygen使用.md)
 
 ### vim
 
@@ -92,6 +93,7 @@
   * [vim-Ex命令](tools/vim/vim-Ex命令.md)
   * [vim选项](tools/vim/vim选项.md)
   * [vim脚本](tools/vim/vim脚本.md)
+  * [vim-terminal使用](tools/vim/vim-terminal使用.md)
   * [vim常用配置](tools/vim/vim常用配置.md)
   * [vim常用快捷键](tools/vim/vim常用快捷键.md)
   * [vim常用命令](tools/vim/vim常用命令.md)
@@ -104,7 +106,6 @@
     * [bookmarks使用](tools/vim/plugins/bookmarks使用.md)
     * [cscope使用](tools/vim/plugins/cscope使用.md)
     * [drawIt使用](tools/vim/plugins/drawIt使用.md)
-    * [markdown预览](tools/vim/plugins/markdown预览.md)
     * [markdown预览](tools/vim/plugins/markdown预览.md)
     * [markdown导航窗](tools/vim/plugins/markdown导航窗.md)
     * [netrw使用](tools/vim/plugins/netrw使用.md)
