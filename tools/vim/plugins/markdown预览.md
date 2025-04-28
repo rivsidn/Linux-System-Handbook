@@ -25,6 +25,14 @@ nnoremap <silent> <F6> :InstantMarkdownStop<CR>
 
 ### 使用
 
+#### plantUML支持
+
+```plantuml
+@startuml
+Bob -> Alice : hello
+@enduml
+```
+
 #### mermaid支持
 
 `mermaid` 是专门为`markdown` 设计的轻量级图标工具。
