@@ -7,6 +7,7 @@
 - [x]  如何在两个buffer之间切换
 - [ ]  cscope数据库自动查找
 - [ ]  脚本下`autoload`文件何时加载
+- [ ]  `vim-markdown`折叠
 - [ ]  `vim`写`markdown`优化
     * `markdown`预览时生成目录
 
