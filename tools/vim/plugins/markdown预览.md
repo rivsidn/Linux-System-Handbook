@@ -70,8 +70,8 @@ Bundle 'iamcco/markdown-preview.vim'
 ### 使用
 
 ```bash
-# 开启预览
-:MarkdownPreview
-# 关闭预览
-:MarkdownPreviewStop
+ # 开启预览
+ :MarkdownPreview
+ # 关闭预览
+ :MarkdownPreviewStop
 ```
