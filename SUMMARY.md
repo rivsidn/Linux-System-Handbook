@@ -77,6 +77,7 @@
   * [dia安装](tools/drawing/dia安装.md)
   * [drawio安装与使用](tools/drawing/drawio安装与使用.md)
   * [yEd安装使用](tools/drawing/yEd安装使用.md)
+  * [graphviz使用](tools/drawing/graphviz使用.md)
   * [PlantUML使用](tools/drawing/PlantUML使用.md)
 * [latex](tools/latex/README.md)
   * [搭建latex环境](tools/latex/搭建latex环境.md)

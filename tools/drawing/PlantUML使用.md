@@ -38,6 +38,8 @@ plantuml -ttxt demo.puml
 ```plantuml
 @startuml
 
+left to right direction
+
 struct root {
   int v1
   int v2
