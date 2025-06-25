@@ -22,7 +22,23 @@
 ## AI辅助编程
 
 * [AI辅助编程](AI_powered/README.md)
-  * [cursor使用](AI_powered/cursor使用.md)
+
+### cursor
+  * [cursor](AI_powered/cursor/README.md)
+  * [cursor收费模式](AI_powered/cursor/cursor收费模式.md)
+  * [cursor安装](AI_powered/cursor/cursor安装.md)
+  * [cursor基础用法](AI_powered/cursor/cursor基础用法.md)
+  * [cursor配置](AI_powered/cursor/cursor配置.md)
+  * [cursor上下文](AI_powered/cursor/cursor上下文.md)
+
+### claude code
+  * [claude_code](AI_powered/claude/README.md)
+  * [claude_code安装](AI_powered/claude/claude_code安装.md)
+  * [claude_code常用命令](AI_powered/claude/claude_code常用命令.md)
+  * [claude_code上下文](AI_powered/claude/claude_code上下文.md)
+  * [claude_code使用实例](AI_powered/claude/claude_code使用实例.md)
+  * [claude_code保存交互日志](AI_powered/claude/claude_code保存交互日志.md)
+
 
 ## 网络配置
 
@@ -73,6 +89,7 @@
 * [git](tools/git/README.md)
   * [git常用命令](tools/git/git常用命令.md)
   * [git常用配置](tools/git/git常用命令.md)
+  * [gitignore配置](tools/git/gitignore配置.md)
 * [drawing](tools/drawing/README.md)
   * [dia安装](tools/drawing/dia安装.md)
   * [drawio安装与使用](tools/drawing/drawio安装与使用.md)
@@ -113,6 +130,11 @@
     * [NERDTree使用](tools/vim/plugins/NERDTree使用.md)
     * [vim-table-mode使用](tools/vim/plugins/vim-table-mode使用.md)
 
+### vscode
+
+* [vscode](tools/vscode/README.md)
+  * [vscode安装](tools/vscode/vscode安装.md)
+
 ## 数据库
 
 * [数据库](database/README.md)
@@ -151,6 +173,7 @@
 * [终端工具](terminal/README.md)
   * [Terminal常用操作](terminal/Terminal常用操作.md)
   * [tmux使用](terminal/tmux使用.md)
+  * [sxiv使用](terminal/sxiv使用.md)
 
 ## 其他
 

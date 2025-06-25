@@ -24,11 +24,3 @@
   sudo chmod 4755 /usr/share/cursor/chrome-sandbox
   ```
 
-
-
-
-
-
-
-
-
