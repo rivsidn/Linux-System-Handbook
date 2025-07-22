@@ -6,6 +6,18 @@
 sudo apt install plantuml
 ```
 
+这样安装的可能不是最新的，导致有些符号不支持.
+
+可以直接通过官网下载最新版本.
+
+```bash
+wget http://sourceforge.net/projects/plantuml/files/plantuml.jar/download -O plantuml.jar
+
+# 使用方式：java -jar plantuml.jar your_file.puml
+# 可以将这个命令封装成一个别名，就可以通过plantuml来调用了
+```
+
+
 ### 使用
 
 源码文件`demo.puml`
@@ -60,7 +72,6 @@ leaf::root  ..> root
 ```
 
 执行图片生成命令之后，可以生成对应的数据结构图.
-
 
 ### 参考资料
 

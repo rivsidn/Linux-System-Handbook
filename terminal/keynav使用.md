@@ -103,20 +103,59 @@ keynav daemonize
 > ctrl+n cut-right,cut-down
 
 
+### 开机自启动
+
+- 设置开机启动文件`/home/yuchao/.config/systemd/user/keynav.service`
+    ```
+    [Unit]
+    Description=Keynav - keyboard mouse control
+    After=graphical-session.target
+    Wants=graphical-session.target
+
+    [Service]
+    Type=simple
+    ExecStart=/usr/bin/keynav
+    Restart=always
+    RestartSec=5
+    Environment=DISPLAY=:0
+    Environment=WAYLAND_DISPLAY=wayland-0
+
+    [Install]
+    WantedBy=default.target
+    ```
+- 设置命令
+    ```
+    启用/禁用服务：
+    systemctl --user enable keynav.service   # 开机自启
+    systemctl --user disable keynav.service  # 取消开机自启
+
+    启动/停止服务：
+    systemctl --user start keynav.service    # 立即启动
+    systemctl --user stop keynav.service     # 立即停止
+    systemctl --user restart keynav.service  # 重启服务
+
+    查看状态：
+    systemctl --user status keynav.service   # 查看运行状态
+    systemctl --user is-enabled keynav.service  # 查看是否开机自启
+    ```
 
 ### 配置文件
 
 可以在 `~/.keynavrc` 目录下输入自己的配置。
 
-> s click 1
-> f click 3
-> e click 4
-> d click 5
->
-> r restart
-> z end
->
+```
+s click 1
+f click 3
+e click 4
+d click 5
 
+r restart
+z end
+
+# 默认情况下不移鼠标
+space click 1,warp,end
+
+```
 
 
 ## TODO 

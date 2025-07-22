@@ -130,6 +130,15 @@
     * [NERDTree使用](tools/vim/plugins/NERDTree使用.md)
     * [vim-table-mode使用](tools/vim/plugins/vim-table-mode使用.md)
 
+### nvim
+
+* [nvim](tools/nvim/README.md)
+  * [nvim安装](tools/nvim/nvim安装.md)
+  * [nvim插件](tools/nvim/plugins/README.md)
+    * [luaSnip使用](tools/nvim/plugins/luaSnip使用.md)
+    * [claude-code使用](tools/nvim/plugins/claude-code使用.md)
+    * [auto_pairs使用](tools/nvim/plugins/auto_pairs使用.md)
+
 ### vscode
 
 * [vscode](tools/vscode/README.md)
@@ -174,6 +183,7 @@
   * [Terminal常用操作](terminal/Terminal常用操作.md)
   * [tmux使用](terminal/tmux使用.md)
   * [sxiv使用](terminal/sxiv使用.md)
+  * [keynav使用](terminal/keynav使用.md)
 
 ## 其他
 

@@ -12,6 +12,11 @@ sudo apt install sxiv
 sxiv demo.png
 ```
 
+## 复制路径到粘贴板
+
+```bash
+alias pwd2c='printf "%s" "$PWD" | xclip -selection clipboard'
+```
 
 
 
