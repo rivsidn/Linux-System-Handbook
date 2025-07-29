@@ -134,11 +134,13 @@
 
 * [nvim](tools/nvim/README.md)
   * [nvim安装](tools/nvim/nvim安装.md)
+    * [nvim-terminal文件类型](tools/nvim/nvim-terminal文件类型.md)
   * [nvim插件](tools/nvim/plugins/README.md)
     * [auto_pairs使用](tools/nvim/plugins/auto_pairs使用.md)
     * [claude-code使用](tools/nvim/plugins/claude-code使用.md)
     * [luaSnip使用](tools/nvim/plugins/luaSnip使用.md)
     * [nvim-tree使用](tools/nvim/plugins/nvim-tree使用.md)
+    * [toggleTerm使用](tools/nvim/plugins/toggleTerm使用.md)
 
 ### vscode
 
