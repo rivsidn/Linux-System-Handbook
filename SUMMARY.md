@@ -138,9 +138,12 @@
   * [nvim插件](tools/nvim/plugins/README.md)
     * [auto_pairs使用](tools/nvim/plugins/auto_pairs使用.md)
     * [claude-code使用](tools/nvim/plugins/claude-code使用.md)
+    * [gutentags使用](tools/nvim/plugins/gutentags使用.md)
     * [luaSnip使用](tools/nvim/plugins/luaSnip使用.md)
     * [nvim-tree使用](tools/nvim/plugins/nvim-tree使用.md)
     * [toggleTerm使用](tools/nvim/plugins/toggleTerm使用.md)
+  * [nvim插件实现](tools/nvim/lua/README.md)
+    * [markdown-term功能实现](tools/nvim/lua/markdown-term功能实现.md)
 
 ### vscode
 
