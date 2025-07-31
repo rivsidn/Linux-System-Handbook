@@ -50,7 +50,7 @@
   * [ipvs配置](net_config/ipvs配置.md)
   * [ipsec配置](net_config/ipsec配置.md)
   * [xfrm配置](net_config/xfrm配置.md)
-  * [防火墙配置](net_config/iptables/README.md)
+  * [NetworkManager网卡管理](net_config/NetworkManager网卡管理.md)
   * [代理配置](net_config/proxy/README.md)
     * [v2ray使用](net_config/proxy/v2ray使用.md)
     * [v2rayLui安装](net_config/proxy/v2rayLui安装.md)
