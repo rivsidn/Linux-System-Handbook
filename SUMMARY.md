@@ -12,6 +12,7 @@
   * [修改截图存储位置](sys_setting/修改截图存储位置.md)
   * [禁止U盘自动挂载](sys_setting/禁止U盘自动挂载.md)
   * [ubuntu系统开机启动设置](sys_setting/ubuntu系统开机启动设置.md)
+  * [ubuntu应用切换异常问题](sys_setting/ubuntu应用切换异常问题.md)
 
 ## 自动化工具
 
