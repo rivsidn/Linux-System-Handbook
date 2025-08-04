@@ -103,6 +103,23 @@
   * [understand工具](tools/code_reading/understand工具.md)
   * [doxygen使用](tools/code_reading/doxygen使用.md)
 
+### nvim
+
+* [nvim](tools/nvim/README.md)
+  * [nvim安装](tools/nvim/nvim安装.md)
+    * [nvim-terminal文件类型](tools/nvim/nvim-terminal文件类型.md)
+  * [nvim插件](tools/nvim/plugins/README.md)
+    * [auto_pairs使用](tools/nvim/plugins/auto_pairs使用.md)
+    * [claude-code使用](tools/nvim/plugins/claude-code使用.md)
+    * [cscope使用](tools/nvim/plugins/cscope使用.md)
+    * [gutentags使用](tools/nvim/plugins/gutentags使用.md)
+    * [luaSnip使用](tools/nvim/plugins/luaSnip使用.md)
+    * [lsp配置](tools/nvim/plugins/lsp配置.md)
+    * [nvim-tree使用](tools/nvim/plugins/nvim-tree使用.md)
+    * [toggleTerm使用](tools/nvim/plugins/toggleTerm使用.md)
+  * [nvim插件实现](tools/nvim/lua/README.md)
+    * [markdown-term功能实现](tools/nvim/lua/markdown-term功能实现.md)
+
 ### vim
 
 * [vim](tools/vim/README.md)
@@ -130,21 +147,6 @@
     * [netrw使用](tools/vim/plugins/netrw使用.md)
     * [NERDTree使用](tools/vim/plugins/NERDTree使用.md)
     * [vim-table-mode使用](tools/vim/plugins/vim-table-mode使用.md)
-
-### nvim
-
-* [nvim](tools/nvim/README.md)
-  * [nvim安装](tools/nvim/nvim安装.md)
-    * [nvim-terminal文件类型](tools/nvim/nvim-terminal文件类型.md)
-  * [nvim插件](tools/nvim/plugins/README.md)
-    * [auto_pairs使用](tools/nvim/plugins/auto_pairs使用.md)
-    * [claude-code使用](tools/nvim/plugins/claude-code使用.md)
-    * [gutentags使用](tools/nvim/plugins/gutentags使用.md)
-    * [luaSnip使用](tools/nvim/plugins/luaSnip使用.md)
-    * [nvim-tree使用](tools/nvim/plugins/nvim-tree使用.md)
-    * [toggleTerm使用](tools/nvim/plugins/toggleTerm使用.md)
-  * [nvim插件实现](tools/nvim/lua/README.md)
-    * [markdown-term功能实现](tools/nvim/lua/markdown-term功能实现.md)
 
 ### vscode
 
