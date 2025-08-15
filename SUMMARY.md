@@ -11,6 +11,7 @@
   * [添加桌面图标](sys_setting/添加桌面图标.md)
   * [修改截图存储位置](sys_setting/修改截图存储位置.md)
   * [禁止U盘自动挂载](sys_setting/禁止U盘自动挂载.md)
+  * [修改U盘label](sys_setting/修改U盘label.md)
   * [ubuntu系统开机启动设置](sys_setting/ubuntu系统开机启动设置.md)
   * [ubuntu应用切换异常问题](sys_setting/ubuntu应用切换异常问题.md)
 
