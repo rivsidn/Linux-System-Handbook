@@ -94,6 +94,7 @@
   * [gitignore配置](tools/git/gitignore配置.md)
 * [drawing](tools/drawing/README.md)
   * [dia安装](tools/drawing/dia安装.md)
+  * [xmind安装](tools/drawing/xmind安装.md)
   * [drawio安装与使用](tools/drawing/drawio安装与使用.md)
   * [yEd安装使用](tools/drawing/yEd安装使用.md)
   * [graphviz使用](tools/drawing/graphviz使用.md)
