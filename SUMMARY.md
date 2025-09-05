@@ -58,6 +58,7 @@
     * [v2rayLui安装](net_config/proxy/v2rayLui安装.md)
     * [proxychains使用](net_config/proxy/proxychains使用.md)
     * [手机代理设置](net_config/proxy/手机代理设置.md)
+  * [samba配置](net_config/samba配置.md)
 
 ## 网络调试
 
@@ -104,6 +105,11 @@
 * [代码阅读工具](tools/code_reading/README.md)
   * [understand工具](tools/code_reading/understand工具.md)
   * [doxygen使用](tools/code_reading/doxygen使用.md)
+
+### vscode
+
+* [vscode](tools/vscode/README.md)
+  * [vscode安装](tools/vscode/vscode安装.md)
 
 ### nvim
 
