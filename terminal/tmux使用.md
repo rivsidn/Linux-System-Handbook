@@ -21,16 +21,19 @@ tmux ls
 2. `ctrl+b $` 会话重命名
 3. `ctrl+b %` 左右划分窗格
 4. `ctrl+b <arraw-key>` 窗格切换
-5. `exit` 退出窗格
+5. 设置窗格布局
 
-### 多窗口操作
+   `ctrl+b :` 进入命令模式，然后执行命令.
 
-1. tmux进入
-2. `ctrl+b $` 会话重命名
-3. `ctrl+b c` 创建一个新窗口
-4. `ctrl+b ,` 窗口重命名
-5. `ctrl+b <num>` 窗口切换
-6. `exit` 退出窗口
+   | 命令                          | 设置       |
+   |-------------------------------|------------|
+   | select-layout even-horizontal | 水平等分   |
+   | select-layout even-vertical   | 垂直等分   |
+   | select-layout main-horizontal | 主窗格在上 |
+   | select-layout main-vertical   | 主窗格在左 |
+   | select-layout tiled           | 平铺       |
+
+6. `exit` 退出窗格
 
 ### 窗格等分
 
@@ -42,6 +45,16 @@ tmux ls
    |-------------------------------|------------------|
    | select-layout even-vertical   | 窗格之间横着排列 |
    | select-layout even-horizontal | 窗格之间竖着排列 |
+
+### 多窗口操作
+
+1. tmux进入
+2. `ctrl+b $` 会话重命名
+3. `ctrl+b c` 创建一个新窗口
+4. `ctrl+b ,` 窗口重命名
+5. `ctrl+b <num>` 窗口切换
+6. `exit` 退出窗口
+
 
 ## 会话管理
 
