@@ -186,6 +186,7 @@
   * [ubuntu安装微信](office_tools/ubuntu安装微信.md)
   * [rdesktop使用](office_tools/rdesktop使用.md)
   * [stardict使用](office_tools/stardict使用.md)
+  * [zoom使用](office_tools/zoom使用.md)
   * [阅读工具](office_tools/READING/README.md)
     * [DPTRP1文件传输](office_tools/READING/DPTRP1文件传输.md)
     * [krop pdf裁边工具](office_tools/READING/krop&#32;pdf裁边工具.md)
