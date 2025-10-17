@@ -120,6 +120,7 @@
     * [auto_pairs使用](tools/nvim/plugins/auto_pairs使用.md)
     * [claude-code使用](tools/nvim/plugins/claude-code使用.md)
     * [cscope使用](tools/nvim/plugins/cscope使用.md)
+    * [fugitive使用](tools/nvim/plugins/fugitive使用.md)
     * [gutentags使用](tools/nvim/plugins/gutentags使用.md)
     * [luaSnip使用](tools/nvim/plugins/luaSnip使用.md)
     * [lsp配置](tools/nvim/plugins/lsp配置.md)
