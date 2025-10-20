@@ -180,6 +180,7 @@
   * [飞书webhook机器人设置](office_tools/飞书webhook机器人设置.md)
   * [iptux局域网通信](office_tools/iptux局域网通信.md)
   * [minicom使用](office_tools/minicom使用.md)
+  * [qpdf使用](office_tools/qpdf使用.md)
   * [toDesk安装](office_tools/toDesk安装.md)
   * [trustaccess安装](office_tools/trustaccess安装.md)
   * [ubuntu使用IE浏览器](office_tools/ubuntu使用IE浏览器.md)
