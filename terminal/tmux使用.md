@@ -52,7 +52,7 @@ tmux ls
 2. `ctrl+b $` 会话重命名
 3. `ctrl+b c` 创建一个新窗口
 4. `ctrl+b ,` 窗口重命名
-5. `ctrl+b <num>` 窗口切换
+5. `ctrl+b <num>`、`ctrl+b n/p` 窗口切换
 6. `exit` 退出窗口
 
 

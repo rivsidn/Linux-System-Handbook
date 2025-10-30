@@ -106,11 +106,6 @@
   - [understand工具](tools/code_reading/understand工具.md)
   - [doxygen使用](tools/code_reading/doxygen使用.md)
 
-### vscode
-
-- [vscode](tools/vscode/README.md)
-  - [vscode安装](tools/vscode/vscode安装.md)
-
 ### nvim
 
 - [nvim](tools/nvim/README.md)
@@ -128,6 +123,13 @@
     - [toggleTerm使用](tools/nvim/plugins/toggleTerm使用.md)
   - [nvim插件实现](tools/nvim/lua/README.md)
     - [markdown-term功能实现](tools/nvim/lua/markdown-term功能实现.md)
+
+### qemu
+
+- [qemu](tools/qemu/README.md)
+  - [qemu安装](tools/qemu/qemu安装.md)
+  - [qemu网络模式](tools/qemu/qemu网络模式.md)
+    - [socket模式](tools/qemu/socket模式.md)
 
 ### vim
 
