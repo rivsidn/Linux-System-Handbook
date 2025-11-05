@@ -129,7 +129,11 @@
 - [qemu](tools/qemu/README.md)
   - [qemu安装](tools/qemu/qemu安装.md)
   - [qemu网络模式](tools/qemu/qemu网络模式.md)
+    - [user模式](tools/qemu/user模式.md)
+    - [bridge模式](tools/qemu/bridge模式.md)
     - [socket模式](tools/qemu/socket模式.md)
+    - [vde模式](tools/qemu/vde模式.md)
+    - [macvtap模式](tools/qemu/macvtap模式.md)
 
 ### vim
 
