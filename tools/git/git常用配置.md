@@ -5,5 +5,11 @@
 git config --global core.quotepath false
 ```
 
+### 本地存储密钥
+
+```bash
+git config --global credential.helper store
+```
+
 
 

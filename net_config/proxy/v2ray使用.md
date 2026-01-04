@@ -5,7 +5,7 @@
 ### 安装
 
 ```bash
-# sudo apt install v2ray
+sudo apt install v2ray
 ```
 
 
