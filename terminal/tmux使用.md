@@ -15,6 +15,13 @@
 tmux ls
 ```
 
+### 断开重链
+
+- `ctrl+b d` 断开链接
+- `tmux ls ` 查看会话
+- `tmux attach -t <name>`  绑定会话，仅有一个会话的时候`-t` 可以省略
+
+
 ### 多窗格操作
 
 1. tmux进入
