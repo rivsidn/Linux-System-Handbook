@@ -117,6 +117,11 @@
   - [understand工具](tools/code_reading/understand工具.md)
   - [doxygen使用](tools/code_reading/doxygen使用.md)
 
+### emacs
+
+- [emacs](tools/emacs/README.md)
+  - [emacs](tools/emacs/常用快捷键.md)
+
 ### nvim
 
 - [nvim](tools/nvim/README.md)
