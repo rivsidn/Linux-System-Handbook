@@ -12,12 +12,14 @@
   - [修改截图存储位置](sys_setting/修改截图存储位置.md)
   - [禁止U盘自动挂载](sys_setting/禁止U盘自动挂载.md)
   - [修改U盘label](sys_setting/修改U盘label.md)
+  - [ubuntu设置favorite-app](sys_setting/ubuntu设置favorite-app.md)
   - [ubuntu系统开机启动设置](sys_setting/ubuntu系统开机启动设置.md)
   - [ubuntu应用切换异常问题](sys_setting/ubuntu应用切换异常问题.md)
 
 ## 自动化工具
 
 - [自动化工具](auto_tools/README.md)
+  - [Autokey使用](auto_tools/Autokey使用.md)
   - [evtest捕获键盘动作](auto_tools/evtest捕获键鼠动作.md)
   - [xdotool使用](auto_tools/xdotool使用.md)
 
@@ -27,20 +29,27 @@
 
 ### cursor
   - [cursor](AI_powered/cursor/README.md)
-  - [cursor收费模式](AI_powered/cursor/cursor收费模式.md)
-  - [cursor安装](AI_powered/cursor/cursor安装.md)
-  - [cursor基础用法](AI_powered/cursor/cursor基础用法.md)
-  - [cursor配置](AI_powered/cursor/cursor配置.md)
-  - [cursor上下文](AI_powered/cursor/cursor上下文.md)
+    - [cursor收费模式](AI_powered/cursor/cursor收费模式.md)
+    - [cursor安装](AI_powered/cursor/cursor安装.md)
+    - [cursor基础用法](AI_powered/cursor/cursor基础用法.md)
+    - [cursor配置](AI_powered/cursor/cursor配置.md)
+    - [cursor上下文](AI_powered/cursor/cursor上下文.md)
 
 ### claude code
   - [claude_code](AI_powered/claude/README.md)
-  - [claude_code安装](AI_powered/claude/claude_code安装.md)
-  - [claude_code常用命令](AI_powered/claude/claude_code常用命令.md)
-  - [claude_code上下文](AI_powered/claude/claude_code上下文.md)
-  - [claude_code使用实例](AI_powered/claude/claude_code使用实例.md)
-  - [claude_code保存交互日志](AI_powered/claude/claude_code保存交互日志.md)
+    - [claude_code安装](AI_powered/claude/claude_code安装.md)
+    - [claude_code常用命令](AI_powered/claude/claude_code常用命令.md)
+    - [claude_code上下文](AI_powered/claude/claude_code上下文.md)
+    - [claude_code使用实例](AI_powered/claude/claude_code使用实例.md)
+    - [claude_code保存交互日志](AI_powered/claude/claude_code保存交互日志.md)
 
+### codex
+  - [codex](AI_powered/codex/README.md)
+    - [codex](AI_powered/codex/codex安装.md)
+
+### gemini
+  - [gemini](AI_powered/gemini/README.md)
+    - [gemini](AI_powered/gemini/gemini安装.md)
 
 ## 网络配置
 
@@ -83,6 +92,7 @@
   - [mv](manual/mv.md)
   - [ps](manual/ps.md)
   - [rename](manual/rename.md)
+  - [umask](manual/umask.md)
   - [watch使用](manual/watch使用.md)
 
 ## 开发工具
@@ -95,16 +105,22 @@
   - [gitignore配置](tools/git/gitignore配置.md)
 - [drawing](tools/drawing/README.md)
   - [dia安装](tools/drawing/dia安装.md)
-  - [xmind安装](tools/drawing/xmind安装.md)
   - [drawio安装与使用](tools/drawing/drawio安装与使用.md)
-  - [yEd安装使用](tools/drawing/yEd安装使用.md)
+  - [Freeplane使用](tools/drawing/Freeplane使用.md)
   - [graphviz使用](tools/drawing/graphviz使用.md)
   - [PlantUML使用](tools/drawing/PlantUML使用.md)
+  - [xmind安装](tools/drawing/xmind安装.md)
+  - [yEd安装使用](tools/drawing/yEd安装使用.md)
 - [latex](tools/latex/README.md)
   - [搭建latex环境](tools/latex/搭建latex环境.md)
 - [代码阅读工具](tools/code_reading/README.md)
   - [understand工具](tools/code_reading/understand工具.md)
   - [doxygen使用](tools/code_reading/doxygen使用.md)
+
+### emacs
+
+- [emacs](tools/emacs/README.md)
+  - [emacs](tools/emacs/常用快捷键.md)
 
 ### nvim
 
@@ -172,6 +188,7 @@
 
 - [数据库](database/README.md)
   - [mongodb使用](database/mongodb使用.md)
+  - [sqlite使用](database/sqlite使用.md)
 
 
 ## 浏览器设置
