@@ -12,6 +12,7 @@
   - [修改截图存储位置](sys_setting/修改截图存储位置.md)
   - [禁止U盘自动挂载](sys_setting/禁止U盘自动挂载.md)
   - [修改U盘label](sys_setting/修改U盘label.md)
+  - [gsettings配置](sys_setting/gsettings配置.md)
   - [ubuntu桌面优化](sys_setting/ubuntu桌面优化.md)
   - [ubuntu设置favorite-app](sys_setting/ubuntu设置favorite-app.md)
   - [ubuntu系统开机启动设置](sys_setting/ubuntu系统开机启动设置.md)
