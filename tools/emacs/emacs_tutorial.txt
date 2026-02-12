@@ -303,10 +303,8 @@ which contains the cursor, to occupy the full screen.  It deletes all
 other windows.
 
 
-TODO: next...
-
->> Move the cursor to this line and type C-u 0 C-l.
->> Type C-h k C-f.
+>> Move the cursor to this line and type C-u 0 C-l(滚动窗口使光标位于第一行).
+>> Type C-h k C-f(查询C-f 的功能).
    See how this window shrinks, while a new one appears
    to display documentation on the C-f command.
 
@@ -369,6 +367,8 @@ you start typing on the newly created line, the text lines up with
 that on the previous line.  We call this behavior (where pressing a
 key does more than simply inserting the relevant character) "electric".
 
+会自动插入空格，使得与之前的行对齐.
+
 >> Here is an example of <Return> being electric.
    Type <Return> at the end of this line.
 
@@ -378,6 +378,8 @@ so that the cursor moves under the "T" of "Type".
 Remember that most Emacs commands can be given a repeat count;
 this includes text characters.  Repeating a text character inserts
 it several times.
+
+可以重复执行多次.
 
 >> Try that now -- type C-u 8 * to insert ********.
 
@@ -392,7 +394,9 @@ as well.  Here is a summary of the delete operations:
 	M-d	     Kill the next word after the cursor
 
 	C-k	     Kill from the cursor position to end of line
+		     (删除当前行)
 	M-k	     Kill to the end of the current sentence
+		     (删除句子)
 
 Notice that <DEL> and C-d vs M-<DEL> and M-d extend the parallel
 started by C-f and M-f (well, <DEL> is not really a control character,
@@ -405,6 +409,8 @@ Next, move the cursor to the other end of the text you intend to kill.
 As you do this, Emacs highlights the text between the cursor and the
 position where you typed C-<SPC>.  Finally, type C-w.  This kills all
 the text between the two positions.
+
+C-<SPC> 选中，C-w 删除整段.
 
 >> Move the cursor to the Y at the start of the previous paragraph.
 >> Type C-<SPC>.  Emacs should display a message "Mark set"
@@ -426,16 +432,22 @@ do deletion (so you cannot yank that text).  <DEL> and C-d do deletion
 in the simplest case, with no argument.  When given an argument, they
 kill instead.
 
+"killing"、"deleting" 的区别，"killing" 的可以重新粘贴，"deleting" 的不能重新粘贴.
+
 >> Move the cursor to the beginning of a line which is not empty.
    Then type C-k to kill the text on that line.
 >> Type C-k a second time.  You'll see that it kills the Newline
    which follows that line.
+
+删除整行.
 
 Note that a single C-k kills the contents of the line, and a second
 C-k kills the line itself, and makes all the other lines move up.  C-k
 treats a numeric argument specially: it kills that many lines AND
 their contents.  This is not mere repetition.  C-u 2 C-k kills two
 lines and their Newlines; typing C-k twice would not do that.
+
+删除多行.
 
 You can yank the killed text either at the same place where it was
 killed, or at some other place in the text you are editing, or even in
@@ -451,6 +463,8 @@ at the current cursor position.
 
 If you do several C-k's in a row, all of the killed text is saved
 together, so that one C-y will yank all of the lines at once.
+
+如果同时执行多次，killed 掉的内容会存储到一起，会同时粘贴出来.
 
 >> Do this now, type C-k several times.
 
@@ -472,6 +486,8 @@ it is.
 If you M-y enough times, you come back to the starting point (the most
 recent kill).
 
+紧跟在C-y 之后执行M-y 可以获取之前删除的内容.
+
 >> Kill a line, move around, kill another line.
    Then do C-y to get back the second killed line.
    Then do M-y and it will be replaced by the first killed line.
@@ -481,7 +497,7 @@ recent kill).
    arguments.
 
 
-* UNDO
+* UNDO(撤销)
 ------
 
 If you make a change to the text, and then decide that it was a
@@ -527,6 +543,8 @@ half-changed file on the system when you do not want to.  Even when
 you save, Emacs leaves the original file under a changed name in case
 you later decide that your changes were a mistake.
 
+即使你执行了保存命令，Emacs 也会保存源文件.
+
 If you look near the bottom of the screen you will see a line that
 begins with dashes, and starts with " -:---  TUTORIAL" or something
 like that.  This part of the screen normally shows the name of the
@@ -539,7 +557,7 @@ have to say what file name you want.  We say the command "reads an
 argument" (in this case, the argument is the name of the file).  After
 you type the command
 
-	C-x C-f   Find a file
+	C-x C-f   Find a file(查找文件)
 
 Emacs asks you to type the file name.  The file name you type appears
 on the bottom line of the screen.  The bottom line is called the
@@ -582,7 +600,7 @@ From then on, you can consider yourself to be editing an already
 existing file.
 
 
-* BUFFERS
+* BUFFERS(缓冲区)
 ---------
 
 If you find a second file with C-x C-f, the first file remains
@@ -628,6 +646,8 @@ The buffer named "*Messages*" also does not correspond to any file.
 This buffer contains the messages that have appeared on the bottom
 line during your Emacs session.
 
+有些buffer 没有绑定任何的文件.
+
 >> Type C-x b *Messages* <Return> to look at the buffer of messages.
    Then type C-x b TUTORIAL <Return> to come back to this tutorial.
 
@@ -650,7 +670,7 @@ to save the buffer to its file.
    Answer yes to the question by typing "y".
 
 
-* EXTENDING THE COMMAND SET
+* EXTENDING THE COMMAND SET(命令拓展)
 ---------------------------
 
 There are many, many more Emacs commands than could possibly be put
@@ -658,7 +678,9 @@ on all the control and meta characters.  Emacs gets around this with
 the X (eXtend) command.  This comes in two flavors:
 
 	C-x	Character eXtend.  Followed by one character.
+		字符拓展
 	M-x	Named command eXtend.  Followed by a long name.
+		名称拓展
 
 These are commands that are generally useful but are used less than the
 commands you have already learned about.  You have already seen a few
@@ -711,6 +733,7 @@ argument with <Return>.
 
 >> Move the cursor to the blank line two lines below this one.
    Then type M-x repl s<Return>changed<Return>altered<Return>.
+   执行替换命令.
 
    Notice how this line has changed: you've replaced the word
    "changed" with "altered" wherever it occurred, after the
@@ -734,6 +757,7 @@ save file) and then typing M-x recover-this-file <Return>.  When it
 asks for confirmation, type yes<Return> to go ahead and recover the
 auto-save data.
 
+自动保存，自动恢复.
 
 * ECHO AREA
 -----------
@@ -741,7 +765,6 @@ auto-save data.
 If Emacs sees that you are typing multicharacter commands slowly, it
 shows them to you at the bottom of the screen in an area called the
 "echo area".  The echo area contains the bottom line of the screen.
-
 
 * MODE LINE
 -----------
@@ -815,16 +838,22 @@ itself, independent of all other minor modes, and independent of your
 major mode.  So you can use no minor modes, or one minor mode, or any
 combination of several minor modes.
 
+辅助模式.
+
 One minor mode which is very useful, especially for editing
 human-language text, is Auto Fill mode.  When this mode is on, Emacs
 breaks the line in between words automatically whenever you insert
 text and make a line that is too wide.
+
+自动补充模式.
 
 You can turn Auto Fill mode on by doing M-x auto-fill-mode <Return>.
 When the mode is on, you can turn it off again by doing
 M-x auto-fill-mode <Return>.  If the mode is off, this command turns
 it on, and if the mode is on, this command turns it off.  We say that
 the command "toggles the mode".
+
+模式开启关闭.
 
 >> Type M-x auto-fill-mode <Return> now.  Then insert a line of "asdf "
    over again until you see it divide into two lines.  You must put in
@@ -833,6 +862,8 @@ the command "toggles the mode".
 The margin is usually set at 70 characters, but you can change it
 with the C-x f command.  You should give the margin setting you want
 as a numeric argument.
+
+设置数字参数.
 
 >> Type C-x f with an argument of 20.  (C-u 2 0 C-x f).
    Then type in some text and see Emacs fill lines of 20
