@@ -889,6 +889,8 @@ to the next place where that string appears.
 The Emacs search command is "incremental".  This means that the
 search happens while you type in the string to search for.
 
+增量查找.
+
 The command to initiate a search is C-s for forward search, and C-r
 for reverse search.  BUT WAIT!  Don't try them now.
 
@@ -902,8 +904,11 @@ you want to search for.  <Return> terminates a search.
    character to notice what happens to the cursor.
    Now you have searched for "cursor", once.
 >> Type C-s again, to search for the next occurrence of "cursor".
+   查找下一个.
 >> Now type <DEL> four times and see how the cursor moves.
+   返回，删除匹配项目(这里的<DEL> 指的是Backspace)
 >> Type <Return> to terminate the search.
+   结束搜索.
 
 Did you see what happened?  Emacs, in an incremental search, tries to
 go to the occurrence of the string that you've typed out so far.  To
@@ -926,6 +931,8 @@ If you are in the middle of a search and type a control or meta
 character (with a few exceptions--characters that are special in a
 search, such as C-s and C-r), the search is terminated.
 
+结束搜索.
+
 C-s starts a search that looks for any occurrence of the search string
 AFTER the current cursor position.  If you want to search for
 something earlier in the text, type C-r instead.  Everything that we
@@ -933,7 +940,7 @@ have said about C-s also applies to C-r, except that the direction of
 the search is reversed.
 
 
-* MULTIPLE WINDOWS
+* MULTIPLE WINDOWS(多窗口操作)
 ------------------
 
 One of the nice features of Emacs is that you can display more than
@@ -950,8 +957,10 @@ Emacs terms.)
 
 >> Type C-M-v to scroll the bottom window.
    (If you do not have a real META key, type <ESC> C-v.)
+   滚动另一个窗口.
 
 >> Type C-x o ("o" for "other") to move the cursor to the bottom window.
+
 >> Use C-v and M-v in the bottom window to scroll it.
    Keep reading these directions in the top window.
 

@@ -12,10 +12,9 @@ sudo apt install emacs
 
 | 模式     | 说明                                     |
 |----------|------------------------------------------|
-| Terminal | 终端模式                                 |
+| Terminal | 终端模式(-nw 启动)                       |
 | Gui      | 图形界面模式                             |
 | Client   | 客户端模式，类似图形界面(配合daemon使用) |
-
 
 
 ## mode-line 说明
