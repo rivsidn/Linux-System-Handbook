@@ -229,6 +229,7 @@
 - [终端工具](terminal/README.md)
   - [keynav使用](terminal/keynav使用.md)
   - [fzf使用](terminal/fzf使用.md)
+  - [stow使用](terminal/stow使用.md)
   - [sxiv使用](terminal/sxiv使用.md)
   - [tmux使用](terminal/tmux使用.md)
   - [Terminal常用操作](terminal/Terminal常用操作.md)
