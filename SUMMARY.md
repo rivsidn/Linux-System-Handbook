@@ -123,6 +123,7 @@
 
 - [emacs](tools/emacs/README.md)
   - [常用快捷键](tools/emacs/常用快捷键.md)
+  - [写markdown](tools/emacs/写markdown.md)
   - [其他特性](tools/emacs/其他特性.md)
 
 ### nvim
