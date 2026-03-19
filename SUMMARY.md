@@ -17,6 +17,8 @@
   - [ubuntu设置favorite-app](sys_setting/ubuntu设置favorite-app.md)
   - [ubuntu系统开机启动设置](sys_setting/ubuntu系统开机启动设置.md)
   - [ubuntu应用切换异常问题](sys_setting/ubuntu应用切换异常问题.md)
+  - [ubuntu键盘映射](sys_setting/ubuntu键盘映射.md)
+	- [keyd配置](sys_setting/keyd配置.md)
 
 ## 自动化工具
 
