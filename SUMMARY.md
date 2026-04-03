@@ -18,7 +18,7 @@
   - [ubuntu系统开机启动设置](sys_setting/ubuntu系统开机启动设置.md)
   - [ubuntu应用切换异常问题](sys_setting/ubuntu应用切换异常问题.md)
   - [ubuntu键盘映射](sys_setting/ubuntu键盘映射.md)
-	- [keyd配置](sys_setting/keyd配置.md)
+    - [keyd配置](sys_setting/keyd配置.md)
 
 ## 自动化工具
 
@@ -147,6 +147,7 @@
     - [lsp配置](tools/nvim/plugins/lsp配置.md)
     - [nvim-tree使用](tools/nvim/plugins/nvim-tree使用.md)
     - [toggleTerm使用](tools/nvim/plugins/toggleTerm使用.md)
+    - [vim-tmux-navigator插件使用](tools/nvim/plugins/vim-tmux-navigator插件使用.md)
   - [nvim插件实现](tools/nvim/lua/README.md)
     - [markdown-term功能实现](tools/nvim/lua/markdown-term功能实现.md)
 
