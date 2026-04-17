@@ -132,6 +132,11 @@
   - [markdown-mode使用](tools/emacs/markdown-mode使用.md)
   - [其他特性](tools/emacs/其他特性.md)
 
+### gitlab
+
+- [gitlab](tools/gitlab/README.md)
+  - [gitlab安装](tools/gitlab/gitlab安装.md)
+
 ### nvim
 
 - [nvim](tools/nvim/README.md)
