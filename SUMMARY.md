@@ -12,6 +12,7 @@
   - [修改截图存储位置](sys_setting/修改截图存储位置.md)
   - [禁止U盘自动挂载](sys_setting/禁止U盘自动挂载.md)
   - [修改U盘label](sys_setting/修改U盘label.md)
+  - [chrome配置代理](sys_setting/chrome配置代理.md)
   - [gsettings配置](sys_setting/gsettings配置.md)
   - [ubuntu桌面优化](sys_setting/ubuntu桌面优化.md)
   - [ubuntu设置favorite-app](sys_setting/ubuntu设置favorite-app.md)
@@ -130,6 +131,7 @@
   - [阅读内核源码](tools/emacs/阅读内核源码.md)
   - [org-mode使用](tools/emacs/org-mode使用.md)
   - [markdown-mode使用](tools/emacs/markdown-mode使用.md)
+  - [整理markdown](tools/emacs/整理markdown.md)
   - [其他特性](tools/emacs/其他特性.md)
 
 ### gitlab
