@@ -49,18 +49,28 @@ Password: 1GKf4EC+BVxa+lJ6PowxCAX42FAcJTqk6mpkE0cwv+Q=
 
 ### 添加用户
 
-```
-唐僧
-  ├── 孙悟空
-  ├── 猪八戒
-  └── 沙僧
-```
+添加用户并配置**西游记** 项目组，西游记项目组配置.
 
-添加用户并配置**xiyouji** 项目组.
+| 用户名 | 密码       | 权限      |
+|--------|------------|-----------|
+| 唐僧   | y123456789 | Owner     |
+| 孙悟空 | y123456789 | Maintiner |
+| 猪八戒 | y123456789 | developer |
+| 沙僧   | y123456789 | developer |
+
 
 ### 添加代码仓库
 
-**xiyouji**项目组中创建'gitlab-demo' 仓库.
+**西游记**项目组中创建'gitlab-demo' 仓库.
+
+- 创建'develop' 分支
+- 设置默认分支为'develop'
+- 创建分支规则，只允许'Maintiner' 提交代码到'develop'
 
 
+完成这些配置之后:
+
+- 默认`fork` 'develop' 分支
+- 主线仓库只允许'Owner'、'Maintiner' 操作
+- 'developer' 通过'Merge request'方式提交代码
 

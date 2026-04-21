@@ -70,6 +70,7 @@
     - [v2ray使用](net_config/proxy/v2ray使用.md)
     - [v2rayLui安装](net_config/proxy/v2rayLui安装.md)
     - [proxychains使用](net_config/proxy/proxychains使用.md)
+    - [v2fly使用](net_config/proxy/v2fly使用.md)
     - [手机代理设置](net_config/proxy/手机代理设置.md)
   - [samba配置](net_config/samba配置.md)
 

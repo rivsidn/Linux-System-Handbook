@@ -9,3 +9,17 @@
 gsettings set org.gnome.desktop.wm.preferences focus-mode 'click'
 ```
 
+### caps设置成ctrl
+
+```bash
+
+# caps 设置成ctrl
+gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:nocaps']"
+# caps、ctrl 互换
+gsettings set org.gnome.desktop.input-sources xkb-options "['ctrl:swapcaps']"
+# 恢复默认配置
+gsettings reset org.gnome.desktop.input-sources xkb-options
+
+```
+
+
