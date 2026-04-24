@@ -127,7 +127,7 @@
 
 - [emacs](tools/emacs/README.md)
   - [常用快捷键](tools/emacs/常用快捷键.md)
-  - [常用功能设置](tools/emacs/常用功能设置.md)
+  - [常用功能](tools/emacs/常用功能.md)
   - [包管理](tools/emacs/包管理.md)
   - [阅读内核源码](tools/emacs/阅读内核源码.md)
   - [org-mode使用](tools/emacs/org-mode使用.md)
