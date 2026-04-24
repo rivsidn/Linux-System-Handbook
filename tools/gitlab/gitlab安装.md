@@ -1,6 +1,24 @@
 
 ## 搭建
 
+### 配置代理
+
+```
+[Service]
+Environment="HTTP_PROXY=http://127.0.0.1:1081"
+Environment="HTTPS_PROXY=http://127.0.0.1:1081"
+Environment="NO_PROXY=localhost,127.0.0.1"
+```
+
+重启docker服务.
+
+```bash
+sudo systemctl daemon-reload
+sudo systemctl restart docker.service
+```
+
+### 下载docker
+
 `docker-compose.yml` 文件.
 
 ```yml
