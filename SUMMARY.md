@@ -130,10 +130,15 @@
   - [常用功能设置](tools/emacs/常用功能设置.md)
   - [包管理](tools/emacs/包管理.md)
   - [阅读内核源码](tools/emacs/阅读内核源码.md)
-  - [org-mode使用](tools/emacs/org-mode使用.md)
   - [markdown-mode使用](tools/emacs/markdown-mode使用.md)
   - [整理markdown](tools/emacs/整理markdown.md)
   - [其他特性](tools/emacs/其他特性.md)
+
+#### org-mode
+
+- [org-mode](tools/emacs/org-mode/README.md)
+  - [org-mode使用](tools/emacs/org-mode/org-mode使用.md)
+  - [org-mode表格](tools/emacs/org-mode/org-mode表格.md)
 
 ### gitlab
 

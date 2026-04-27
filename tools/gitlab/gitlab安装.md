@@ -52,7 +52,7 @@ services:
 | docker compose down    | 停止容器并删镜像           |
 
 
-访问端口 `http://localhost:8929 .
+访问端口 `http://localhost:8929` .
 
 
 ```bash
