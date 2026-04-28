@@ -139,6 +139,8 @@
 - [org-mode](tools/emacs/org-mode/README.md)
   - [org-mode使用](tools/emacs/org-mode/org-mode使用.md)
   - [org-mode表格](tools/emacs/org-mode/org-mode表格.md)
+  - [org-mode超链接](tools/emacs/org-mode/org-mode超链接.md)
+  - [org-mode_TODO条目](tools/emacs/org-mode/org-mode_TODO条目.md)
 
 ### gitlab
 
