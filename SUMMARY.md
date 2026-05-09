@@ -22,6 +22,7 @@
   - [ubuntu应用切换异常问题](sys_setting/ubuntu应用切换异常问题.md)
   - [ubuntu键盘映射](sys_setting/ubuntu键盘映射.md)
     - [keyd配置](sys_setting/keyd配置.md)
+    - [kanata配置](sys_setting/kanata配置.md)
 
 ## 自动化工具
 
