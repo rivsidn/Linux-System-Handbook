@@ -258,6 +258,7 @@
   - [sxiv使用](terminal/sxiv使用.md)
   - [tmux使用](terminal/tmux使用.md)
   - [Terminal常用操作](terminal/Terminal常用操作.md)
+  - [加密压缩命令](terminal/加密压缩命令.md)
 
 ## 其他
 
