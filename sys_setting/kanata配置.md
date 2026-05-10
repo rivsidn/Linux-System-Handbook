@@ -4,18 +4,165 @@
 - 组合键
 - 键盘层
 
+## 软件安装
+
+```bash
+# 不懂但是照做就行
+sudo apt install rustup; rustup default stable
+
+# 安装
+cargo install kanata
+
+```
+
+设置环境变量(简单示例).
+
+```bash
+export PATH="$HOME/.cargo/bin:$PATH"
+```
 
 
-## 简单示例
+## 简单示例(一)
+
+### 配置文件
+
+配置文件 `demo.kdb` .
+
+```kdb
+(defcfg
+  process-unmapped-keys yes
+)
+
+(defsrc
+  a s e f
+)
+
+;; kanata 启动之后第一个层是默认层.
+;; default  是层的名字.
+(deflayer default
+  1 2 3 4
+)
+
+```
+
+功能是将字母'a s e f' 分别映射成 '1 2 3 4'，其他键位保持原样.
+
+### 启动软件
+
+```bash
+# 指定配置文件启动
+kanata --cfg demo.kbd
+```
+
+## 简单示例(二)
+
+### 配置文件
+
+```kbd
+(defcfg
+  process-unmapped-keys yes
+)
+
+(defsrc)
+
+(deflayermap (arrows)
+  w	up
+  a	left
+  s	down
+  d	right
+)
+```
+
+键盘摁键之间一一映射.
+
+
+## 核心概念
+
+### 别名
+
+别名定义的是操作，将操作绑定到别名，引用别名使用`@`.
+
+```
+[keystroke] --> [alias] --> [action]
+```
+
+他们之间的关系是这样的.
+
+
+### 变量
+
+变量也就是相当于C 里的宏定义，方便用到相同变量的地方同步修改，引用变量使用`$`.
+
+
+### 和弦(chords)
+
+
+
+### 组合(combos)
 
 
 
 
+## 配置函数
 
+### linux-dev
 
+查看键盘设备.
 
+```bash
+$ la -la /dev/input/by-path/
+total 0
+drwxr-xr-x 2 root root 160 May  6 08:48 .
+drwxr-xr-x 3 root root 380 May 10 20:31 ..
+lrwxrwxrwx 1 root root   9 May  5 10:16 platform-i8042-serio-0-event-kbd -> ../event3
+lrwxrwxrwx 1 root root  10 May  5 10:16 platform-i8042-serio-1-event-mouse -> ../event10
+lrwxrwxrwx 1 root root   9 May  5 10:16 platform-i8042-serio-1-mouse -> ../mouse2
+lrwxrwxrwx 1 root root  10 May  5 10:16 platform-i8042-serio-2-event-mouse -> ../event11
+lrwxrwxrwx 1 root root   9 May  5 10:16 platform-i8042-serio-2-mouse -> ../mouse3
+lrwxrwxrwx 1 root root  10 May  5 10:16 platform-thinkpad_acpi-event -> ../event12
 
+```
 
+指定键盘设备.
+
+```kbd
+(defcfg
+  linux-dev /dev/input/by-path/platform-i8042-serio-0-event-kbd
+)
+```
+
+### linux-dev-names-include
+
+```bash
+$ cat /proc/bus/input/devices | more
+
+# 省略好多内容...
+
+I: Bus=0011 Vendor=0001 Product=0001 Version=ab83
+N: Name="AT Translated Set 2 keyboard"
+P: Phys=isa0060/serio0/input0
+S: Sysfs=/devices/platform/i8042/serio0/input/input3
+U: Uniq=
+H: Handlers=sysrq kbd event3 leds 
+B: PROP=0
+B: EV=120013
+B: KEY=402000002 3803078f800d001 feffffdfffefffff fffffffffffffffe
+B: MSC=10
+B: LED=7
+
+#...
+
+```
+
+```kbd
+linux-dev-names-include (
+  "Device name"
+)
+```
+
+绑定键盘设备.
+
+### layer-while-held
 
 
 
@@ -28,6 +175,11 @@
 ### TODO
 
 - 简单示例
+
+- 对于笔记本来说，可以同时运行两个kanata实例，绑定不同的配置文件.
+
+  每个配置文件中通过`linux-dev` 限定设备.
+
 - 如何桌面显示当前层
 
 
@@ -49,6 +201,10 @@ sudo apt install ruby ruby-dev; gem install asciidoctor-pdf
 echo 'export PATH="$HOME/.local/share/gem/ruby/3.3.0/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 ```
+
+### 参考资料
+
+- [高级键盘映射：Kanata 快速入门](https://blog.hentioe.dev/posts/advanced-keymapping-kanata-tutorial.html)
 
 ### AI
 
