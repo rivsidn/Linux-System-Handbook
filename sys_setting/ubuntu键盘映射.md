@@ -45,6 +45,15 @@ gsettings reset org.gnome.desktop.input-sources xkb-options
 
 ## 附录
 
+### TODO
+
+#### 键盘布局
+
+- qwerty
+- dvorak
+- dvorak programmer
+- colemak
+
 
 ### 待整理
 

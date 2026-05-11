@@ -1,0 +1,11 @@
+
+
+
+
+## 附录
+
+### 参考资料
+
+- [HHKB 键盘布局配置方案](https://bitmingw.com/2017/07/29/hhkb-keyboard-layout-configuration/)
+
+

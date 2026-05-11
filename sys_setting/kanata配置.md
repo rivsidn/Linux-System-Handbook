@@ -1,5 +1,8 @@
 
 
+功能概述
+
+
 - 改键
 - 组合键
 - 键盘层
@@ -99,6 +102,9 @@ kanata --cfg demo.kbd
 
 
 ### 组合(combos)
+
+
+## 核心功能
 
 
 
@@ -205,6 +211,7 @@ source ~/.bashrc
 ### 参考资料
 
 - [高级键盘映射：Kanata 快速入门](https://blog.hentioe.dev/posts/advanced-keymapping-kanata-tutorial.html)
+- [HHKB 键盘布局配置方案](https://bitmingw.com/2017/07/29/hhkb-keyboard-layout-configuration/)
 
 ### AI
 
