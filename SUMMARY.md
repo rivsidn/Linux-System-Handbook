@@ -24,7 +24,7 @@
     - [HHKB键盘布局](sys_setting/HHKB键盘布局.md)
     - [keyd配置](sys_setting/keyd配置.md)
     - [kanata配置](sys_setting/kanata配置.md)
-      - [kanata学习](sys_setting/kanata学习.md)
+    - [kanata学习](sys_setting/kanata学习.md)
 
 ## 自动化工具
 
