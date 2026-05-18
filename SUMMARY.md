@@ -23,9 +23,10 @@
   - [ubuntu键盘映射](sys_setting/ubuntu键盘映射.md)
     - [HHKB键盘布局](sys_setting/HHKB键盘布局.md)
     - [keyd配置](sys_setting/keyd配置.md)
-    - [kanata配置](sys_setting/kanata配置.md)
-    - [kanata学习](sys_setting/kanata学习.md)
-    - [kanata映射](sys_setting/kanata映射.md)
+    - [kanata](sys_setting/kanata/README.md)
+      - [kanata配置](sys_setting/kanata/kanata配置.md)
+      - [kanata学习](sys_setting/kanata/kanata学习.md)
+      - [kanata映射](sys_setting/kanata/kanata映射.md)
 
 ## 自动化工具
 
