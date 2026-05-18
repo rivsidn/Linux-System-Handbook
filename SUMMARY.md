@@ -25,6 +25,7 @@
     - [keyd配置](sys_setting/keyd配置.md)
     - [kanata配置](sys_setting/kanata配置.md)
     - [kanata学习](sys_setting/kanata学习.md)
+    - [kanata映射](sys_setting/kanata映射.md)
 
 ## 自动化工具
 
