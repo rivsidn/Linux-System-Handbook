@@ -35,8 +35,8 @@
   </defs>
   <rect width="100%" height="100%" fill="url(#bg)"/>
   <text x="54" y="44" class="title">当前键位映射图</text>
-  <text x="54" y="73" class="subtitle">绿色：按住 ' 的符号/导航层；蓝色：Alt + H/J/K/L；橙色：层键与 Caps 组合。</text>
-  <text x="54" y="98" class="subtitle">Enter 为普通回车；' 是 tap-hold：短按输出单引号，按住进入符号层。</text>
+  <text x="54" y="73" class="subtitle">绿色：按住 ' 的符号/导航层；蓝色：Alt + U/I/H/J/K/L；橙色：层键与 Caps 组合。</text>
+  <text x="54" y="98" class="subtitle">Enter 为普通回车；' 仅作为层键：短按无输出，按住进入符号层。</text>
 
 <rect x="54.0" y="114.0" width="24" height="24" rx="6" fill="#d9f4eb" stroke="#4da792" class="legendbox"/>
 <text x="88.0" y="126.0" class="legend">&#x27; 符号层</text>
@@ -141,12 +141,16 @@
 <text x="550.0" y="249.0" class="main neutral_text" text-anchor="middle">Y</text>
 </g>
 <g class="keywrap">
-<rect x="590.0" y="218.0" width="64.0" height="62.0" rx="11" class="key neutral"/>
-<text x="622.0" y="249.0" class="main neutral_text" text-anchor="middle">U</text>
+<rect x="590.0" y="218.0" width="64.0" height="62.0" rx="11" class="key alt"/>
+<text x="600.0" y="234.0" class="phys" text-anchor="start">U</text>
+<text x="622.0" y="242.0" class="main alt_text wide" text-anchor="middle">PgDn</text>
+<text x="622.0" y="267.0" class="small alt_text" text-anchor="middle">Alt+U</text>
 </g>
 <g class="keywrap">
-<rect x="662.0" y="218.0" width="64.0" height="62.0" rx="11" class="key neutral"/>
-<text x="694.0" y="249.0" class="main neutral_text" text-anchor="middle">I</text>
+<rect x="662.0" y="218.0" width="64.0" height="62.0" rx="11" class="key alt"/>
+<text x="672.0" y="234.0" class="phys" text-anchor="start">I</text>
+<text x="694.0" y="242.0" class="main alt_text wide" text-anchor="middle">PgUp</text>
+<text x="694.0" y="267.0" class="small alt_text" text-anchor="middle">Alt+I</text>
 </g>
 <g class="keywrap">
 <rect x="734.0" y="218.0" width="64.0" height="62.0" rx="11" class="key neutral"/>
@@ -240,8 +244,8 @@
 <g class="keywrap">
 <rect x="898.0" y="290.0" width="64.0" height="62.0" rx="11" class="key trigger"/>
 <text x="908.0" y="306.0" class="phys" text-anchor="start">&#x27;</text>
-<text x="930.0" y="314.0" class="main trigger_text wide" text-anchor="middle">Hold: 符号层</text>
-<text x="930.0" y="339.0" class="small trigger_text" text-anchor="middle">tap: &#x27;</text>
+<text x="930.0" y="314.0" class="main trigger_text wide" text-anchor="middle">符号层</text>
+<text x="930.0" y="339.0" class="small trigger_text" text-anchor="middle">tap: 无输出</text>
 </g>
 <g class="keywrap">
 <rect x="970.0" y="290.0" width="144.0" height="62.0" rx="11" class="key neutral"/>
@@ -342,5 +346,5 @@
 <rect x="1014.0" y="434.0" width="80.0" height="62.0" rx="11" class="key neutral"/>
 <text x="1054.0" y="465.0" class="main neutral_text" text-anchor="middle">Ctrl</text>
 </g>
-<text x="54" y="576" class="subtitle">注：单独按 ' 输出单引号；按住 ' 后，Q 单点输出双引号 "，双点输出单引号 '。</text>
+<text x="54" y="576" class="subtitle">注：单独按 ' 无输出；按住 ' 后，Q 单点输出双引号 "，双点输出单引号 '。</text>
 </svg>

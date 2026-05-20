@@ -29,18 +29,19 @@
 | Alt + j      |           | 下                         |
 | Alt + h      |           | 左                         |
 | Alt + l      |           | 右                         |
+| Alt + u      | page up   | 上翻页                     |
+| Alt + i      | page down | 下翻页                     |
 
 ## 配置文件
 
-![键位映射](enter-tool-layer-layout.svg)
+![键位映射](kanata-layout.svg)
 
 配置文件.
-      
+
 ```kbd
 ;; Quote-key symbol layer for a US-QWERTY OS layout.
 ;; - tap Enter: Enter with no tap-hold delay
-;; - tap apostrophe ('): apostrophe
-;; - hold apostrophe ('): symbols/nav/edit layer
+;; - hold apostrophe ('): symbols/nav/edit layer only; tapping it outputs nothing
 
 (defcfg
   process-unmapped-keys yes
@@ -48,8 +49,6 @@
 
 (defvar
   td 200
-  quo-tap 120
-  quo-hold 180
 )
 
 (defalias
@@ -57,9 +56,8 @@
   sfl (multi lsft (layer-while-held shifted))
   sfr (multi rsft (layer-while-held shifted))
 
-  ;; Tap apostrophe for apostrophe; hold apostrophe for the symbols layer.
-  ;; tap-hold-press makes '+q/w/... switch to the layer as soon as q/w/... is pressed.
-  quo (tap-hold-press $quo-tap $quo-hold ' (layer-while-held symbols))
+  ;; Apostrophe is only a layer key; tapping it does not emit apostrophe.
+  quo (layer-while-held symbols)
 
   ;; Force Caps output without carrying Shift through.
   cap (unshift caps)
@@ -113,17 +111,58 @@
   _    _    _                   _                   _    _    _
 )
 
-;; Alt+h/j/k/l -> arrow keys. Both left and right Alt are supported.
+;; Alt+u/i -> Page Down/Page Up; Alt+h/j/k/l -> arrow keys.
+;; Both left and right Alt are supported.
 (defoverrides
+  (lalt u) (pgdn)
+  (lalt i) (pgup)
   (lalt h) (left)
   (lalt j) (down)
   (lalt k) (up)
   (lalt l) (rght)
+  (ralt u) (pgdn)
+  (ralt i) (pgup)
   (ralt h) (left)
   (ralt j) (down)
   (ralt k) (up)
   (ralt l) (rght)
 )
+```
+
+## 设置开机自启动
+
+### service 文件
+
+```
+[Unit]
+Description=Kanata keyboard remapper
+After=systemd-udev-settle.service
+Wants=systemd-udev-settle.service
+
+[Service]
+Type=simple
+ExecStart=/home/yuchao/.cargo/bin/kanata --cfg /home/yuchao/.config/kanata/kanata.kbd --no-wait
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target
+```
+
+### install 脚本
+
+```bash
+#!/usr/bin/env bash
+set -euo pipefail
+
+cd "$(dirname "$0")"
+
+install -d /home/yuchao/.config/kanata
+install -m 0644 enter-tool-layer.kbd /home/yuchao/.config/kanata/kanata.kbd
+sudo install -m 0644 kanata.service /etc/systemd/system/kanata.service
+sudo systemctl daemon-reload
+sudo systemctl enable --now kanata.service
+systemctl status kanata.service --no-pager
 ```
 
 ## 附录
