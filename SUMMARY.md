@@ -27,6 +27,7 @@
       - [kanata配置](sys_setting/kanata/kanata配置.md)
       - [kanata学习](sys_setting/kanata/kanata学习.md)
       - [kanata映射](sys_setting/kanata/kanata映射.md)
+      - [kanata宏](sys_setting/kanata/kanata宏.md)
 
 ## 自动化工具
 
