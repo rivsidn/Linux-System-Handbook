@@ -19,10 +19,18 @@ sudo apt install stow
 ### 安装
 
 ```bash
+# 安装
 stow -t $HOME bash
 ```
 
 该命令执行之后，会在 $HOME 下创建 .bashrc 的软链接.
+
+### 卸载
+
+```bash
+# 卸载
+stow -D $HOME bash
+```
 
 ## 附录
 
