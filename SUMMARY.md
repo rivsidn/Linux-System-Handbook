@@ -116,6 +116,7 @@
 - [git](tools/git/README.md)
   - [git常用命令](tools/git/git常用命令.md)
   - [git常用配置](tools/git/git常用命令.md)
+  - [git-subtree使用](tools/git/git-subtree使用.md)
   - [gitignore配置](tools/git/gitignore配置.md)
 - [gitk](tools/gitk使用.md)
 - [drawing](tools/drawing/README.md)
