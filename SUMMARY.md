@@ -23,8 +23,11 @@
   - [ubuntu键盘映射](sys_setting/ubuntu键盘映射.md)
     - [HHKB键盘布局](sys_setting/HHKB键盘布局.md)
     - [keyd配置](sys_setting/keyd配置.md)
-    - [kanata配置](sys_setting/kanata配置.md)
-    - [kanata学习](sys_setting/kanata学习.md)
+    - [kanata](sys_setting/kanata/README.md)
+      - [kanata配置](sys_setting/kanata/kanata配置.md)
+      - [kanata学习](sys_setting/kanata/kanata学习.md)
+      - [kanata映射](sys_setting/kanata/kanata映射.md)
+      - [kanata宏](sys_setting/kanata/kanata宏.md)
 
 ## 自动化工具
 
@@ -113,7 +116,9 @@
 - [git](tools/git/README.md)
   - [git常用命令](tools/git/git常用命令.md)
   - [git常用配置](tools/git/git常用命令.md)
+  - [git-subtree使用](tools/git/git-subtree使用.md)
   - [gitignore配置](tools/git/gitignore配置.md)
+- [gitk](tools/gitk使用.md)
 - [drawing](tools/drawing/README.md)
   - [dia安装](tools/drawing/dia安装.md)
   - [drawio安装与使用](tools/drawing/drawio安装与使用.md)
@@ -159,7 +164,7 @@
 
 - [nvim](tools/nvim/README.md)
   - [nvim安装](tools/nvim/nvim安装.md)
-    - [nvim-terminal文件类型](tools/nvim/nvim-terminal文件类型.md)
+  - [nvim-terminal文件类型](tools/nvim/nvim-terminal文件类型.md)
   - [nvim插件](tools/nvim/plugins/README.md)
     - [auto_pairs使用](tools/nvim/plugins/auto_pairs使用.md)
     - [claude-code使用](tools/nvim/plugins/claude-code使用.md)
@@ -264,6 +269,7 @@
     - [socat使用示例](terminal/socat使用示例.md)
   - [stow使用](terminal/stow使用.md)
   - [sxiv使用](terminal/sxiv使用.md)
+  - [tig使用](terminal/tig使用.md)
   - [tmux使用](terminal/tmux使用.md)
   - [Terminal常用操作](terminal/Terminal常用操作.md)
   - [加密压缩命令](terminal/加密压缩命令.md)
