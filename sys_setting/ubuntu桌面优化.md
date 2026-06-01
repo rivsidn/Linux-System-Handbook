@@ -21,6 +21,11 @@ gsettings set org.gnome.shell.app-switcher current-workspace-only true
 gsettings set org.gnome.shell.extensions.dash-to-dock isolate-workspaces true
 ```
 
+在较新的 GNOME/Ubuntu 中，也可以试：
+
+```
+Settings → Multitasking → App Switching → 选择 Include apps from the current workspace only
+```
 
 ## TODO
 
