@@ -14,8 +14,6 @@
   - [修改U盘label](sys_setting/修改U盘label.md)
   - [chrome配置代理](sys_setting/chrome配置代理.md)
   - [gsettings配置](sys_setting/gsettings配置.md)
-  - [ubuntu安装五笔](sys_setting/ubuntu安装五笔.md)
-  - [ubuntu安装虎码](sys_setting/ubuntu安装虎码.md)
   - [ubuntu桌面优化](sys_setting/ubuntu桌面优化.md)
   - [ubuntu设置favorite-app](sys_setting/ubuntu设置favorite-app.md)
   - [ubuntu系统开机启动设置](sys_setting/ubuntu系统开机启动设置.md)
@@ -28,6 +26,12 @@
       - [kanata学习](sys_setting/kanata/kanata学习.md)
       - [kanata映射](sys_setting/kanata/kanata映射.md)
       - [kanata宏](sys_setting/kanata/kanata宏.md)
+
+### 字型输入法
+
+- [字型输入法](sys_setting/input_method/README.md)
+  - [ubuntu安装五笔](sys_setting/input_method/ubuntu安装五笔.md)
+  - [ubuntu安装虎码](sys_setting/input_method/ubuntu安装虎码.md)
 
 ## 自动化工具
 
