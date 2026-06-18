@@ -178,6 +178,7 @@
     - [gutentags使用](tools/nvim/plugins/gutentags使用.md)
     - [luaSnip使用](tools/nvim/plugins/luaSnip使用.md)
     - [lsp配置](tools/nvim/plugins/lsp配置.md)
+    - [markdown-preview使用](tools/nvim/plugins/markdown-preview使用.md)
     - [nvim-tree使用](tools/nvim/plugins/nvim-tree使用.md)
     - [toggleTerm使用](tools/nvim/plugins/toggleTerm使用.md)
     - [vim-tmux-navigator插件使用](tools/nvim/plugins/vim-tmux-navigator插件使用.md)
