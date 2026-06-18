@@ -155,6 +155,7 @@
   - [org-mode表格](tools/emacs/org-mode/org-mode表格.md)
   - [org-mode超链接](tools/emacs/org-mode/org-mode超链接.md)
   - [org-mode_TODO条目](tools/emacs/org-mode/org-mode_TODO条目.md)
+  - [org-mode工作计时](tools/emacs/org-mode/org-mode工作计时.md)
 
   - [整理工作笔记](tools/emacs/org-mode/整理工作笔记.md)
   - [整理代码笔记](tools/emacs/org-mode/整理代码笔记.md)
