@@ -1,0 +1,49 @@
+
+* 安装卿云输入法
+
+
+** 安装fcitx、rime
+
+#+begin_src bash
+  sudo apt update
+  sudo apt install fcitx5 fcitx5-rime fcitx5-chinese-addons fcitx5-config-qt im-config
+#+end_src
+
+
+** 安装卿云
+
+*** 下载软件
+
+Github 中下载卿云最新版本 [[https://github.com/forfudan/yuhao-ime-release/releases][宇浩卿云下载地址]].
+
+
+*** 软件安装
+
+#+begin_src bash
+  mkdir -p ~/.local/share/fcitx5/rime
+  cp -r qingyun_v3.11.0/schema/* ~/.local/share/fcitx5/rime/
+  cp -r qingyun_v3.11.0/custom/* ~/.local/share/fcitx5/rime/
+
+  # 加入或合并以下内容：
+  patch:
+    schema_list:
+      - schema: yujoy
+      - schema: yujoy_sc
+      - schema: yujoy_tw
+      - schema: yujoy_fluency
+#+end_src
+
+配置方案文件: ~$HOME/.local/share/fcitx5/rime/default.custom.yaml~.
+
+#+begin_src
+  # 加入或合并以下内容：
+  patch:
+    schema_list:
+      - schema: yujoy
+      - schema: yujoy_sc
+      - schema: yujoy_tw
+      - schema: yujoy_fluency
+#+end_src
+
+
+** 配置卿云

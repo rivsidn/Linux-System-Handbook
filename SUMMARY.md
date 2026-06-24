@@ -32,6 +32,7 @@
 - [字型输入法](sys_setting/input_method/README.md)
   - [ubuntu安装五笔](sys_setting/input_method/ubuntu安装五笔.md)
   - [ubuntu安装虎码](sys_setting/input_method/ubuntu安装虎码.md)
+  - [ubuntu安装卿云](sys_setting/input_method/ubuntu安装卿云.org)
 
 ## 自动化工具
 
