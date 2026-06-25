@@ -1,0 +1,35 @@
+
+* tailscale 使用
+
+
+** 安装
+
+#+begin_src bash
+  curl -fsSL https://tailscale.com/install.sh | sh
+  sudo tailscale up
+#+end_src
+
+
+
+** 使用
+
+*** 命令行
+
+#+begin_src bash
+  # 启动
+  sudo tailscale up
+
+  # 登陆、登出
+  sudo tailscale login
+  sudo tailscale logout
+
+  # 查看状态
+  sudo tailscale status
+#+end_src
+
+
+*** 设备访问
+
+通过 ~status~ 命令可以查看到当前登陆相同帐号的设备，然后就可以像局域网一样访问。
+
+

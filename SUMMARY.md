@@ -87,6 +87,7 @@
     - [v2fly使用](net_config/proxy/v2fly使用.md)
     - [手机代理设置](net_config/proxy/手机代理设置.md)
   - [samba配置](net_config/samba配置.md)
+  - [tailscale使用](net_config/tailscale使用.org)
 
 ## 网络调试
 
