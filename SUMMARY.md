@@ -145,6 +145,7 @@
   - [常用快捷键](tools/emacs/常用快捷键.md)
   - [常用功能](tools/emacs/常用功能.md)
   - [包管理](tools/emacs/包管理.md)
+  - [打字练习](tools/emacs/打字练习.md)
   - [阅读内核源码](tools/emacs/阅读内核源码.md)
   - [整理markdown](tools/emacs/整理markdown.md)
   - [其他特性](tools/emacs/其他特性.md)
