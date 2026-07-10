@@ -7,12 +7,12 @@ sudo apt-get install freeplane
 
 ## 快捷键
 
-| 快捷键 | 说明                              |
-|--------|-----------------------------------|
-| F2     | 进入编辑模式                      |
-| F3     | 进入细节编辑模式，Ctrl+Enter 换行 |
-
-
+| 快捷键      | 说明                              |
+|-------------|-----------------------------------|
+| F2          | 进入编辑模式                      |
+| F3          | 进入细节编辑模式，Ctrl+Enter 换行 |
+| Alt+F2      | 隐藏/显示详情                     |
+| Alt+Shift+A | 另存为分支新的导图                |
 
 
 ## 附录
@@ -23,6 +23,14 @@ sudo apt-get install freeplane
 
 - 单击 编辑 -> 新增节点 -> 插入子节点
 - 摁住 Ctrl，鼠标单击，修改快捷键即可
+
+### 解决Alt+F2 不可用问题
+
+被系统占用，取消既可.
+
+```bash
+gsettings set org.gnome.desktop.wm.keybindings panel-run-dialog "[]"
+```
 
 ### 解决图标显示问题
 
