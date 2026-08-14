@@ -270,6 +270,12 @@
     - [kindle使用](office_tools/READING/kindle使用.md)
     - [ebooks资源](office_tools/READING/ebooks资源.md)
     - [英文PDF阅读](office_tools/READING/英文PDF阅读.md)
+  - [工作管理](office_tools/work-management/README.md)
+    - [Todoist使用](office_tools/work-management/Todoist使用.md)
+    - [TickTick使用](office_tools/work-management/TickTick使用.md)
+    - [Asana使用](office_tools/work-management/Asana使用.md)
+    - [Notion使用](office_tools/work-management/Notion使用.md)
+
 
 ## 终端工具
 
