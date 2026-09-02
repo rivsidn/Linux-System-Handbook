@@ -89,6 +89,7 @@
     - [手机代理设置](net_config/proxy/手机代理设置.md)
   - [samba配置](net_config/samba配置.md)
   - [tailscale使用](net_config/tailscale使用.org)
+  - [DNS配置](net_config/DNS配置.md)
 
 ## 网络调试
 
