@@ -79,7 +79,6 @@
   - [ipvs配置](net_config/ipvs配置.md)
   - [ipsec配置](net_config/ipsec配置.md)
   - [xfrm配置](net_config/xfrm配置.md)
-  - [NetworkManager网卡管理](net_config/NetworkManager网卡管理.md)
   - [代理配置](net_config/proxy/README.md)
     - [v2ray使用](net_config/proxy/v2ray使用.md)
     - [v2rayLui安装](net_config/proxy/v2rayLui安装.md)
@@ -89,7 +88,11 @@
     - [手机代理设置](net_config/proxy/手机代理设置.md)
   - [samba配置](net_config/samba配置.md)
   - [tailscale使用](net_config/tailscale使用.org)
-  - [DNS配置](net_config/DNS配置.md)
+  - [NetworkManager使用](net_config/NetworkManager使用.md)
+  - [DNS相关](net_config/DNS/README.md)
+    - [dig使用](net_config/DNS/dig使用.md)
+    - [nslookup使用](net_config/DNS/nslookup使用.md)
+    - [DNS配置](net_config/DNS/DNS配置.md)
 
 ## 网络调试
 
