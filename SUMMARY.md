@@ -88,11 +88,14 @@
     - [手机代理设置](net_config/proxy/手机代理设置.md)
   - [samba配置](net_config/samba配置.md)
   - [tailscale使用](net_config/tailscale使用.org)
+  - [tc配置](net_config/tc配置.md)
   - [NetworkManager使用](net_config/NetworkManager使用.md)
   - [DNS相关](net_config/DNS/README.md)
     - [dig使用](net_config/DNS/dig使用.md)
     - [nslookup使用](net_config/DNS/nslookup使用.md)
     - [DNS配置](net_config/DNS/DNS配置.md)
+
+
 
 ## 网络调试
 
